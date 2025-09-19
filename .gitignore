@@ -1,2 +1,9 @@
-/BobBlob/Library/PackageCache/
+/BobBlob/Library/
 /BobBlob/Logs/
+/BobBlob-broken/
+/BobBlob/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/BobBlob/Temp/
+/BobBlob/[Oo]bj/
+/BobBlob/[Bb]uild/
+/BobBlob/[Bb]uilds/
+/BobBlob/[Uu]ser[Ss]ettings/
