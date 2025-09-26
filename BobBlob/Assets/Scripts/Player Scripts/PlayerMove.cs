@@ -22,6 +22,8 @@ public class PlayerMove : MonoBehaviour
 
     public bool isGrounded = false; //bool for weather player is on the ground or not
 
+    public float maxV = 0;
+
     // Start is called before the first frame update
     void Start() {
 
@@ -32,6 +34,7 @@ public class PlayerMove : MonoBehaviour
     {
         Move();
         //Debug.Log(velocity.y);
+        //Debug.Log(velocity.x);
         //Debug.Log(jumpFallSpeed);
     }
 
@@ -71,6 +74,10 @@ public class PlayerMove : MonoBehaviour
         else
         {
             velocity.y += gravity * Time.deltaTime * jumpFallSpeed; //falls
+            if (velocity.y < maxV)
+            {
+                velocity.y = maxV;
+            }
         }
 
         if (isGrounded == true && velocity.y <= -.51f) //pervents ground clipping
