@@ -423,11 +423,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/DetectMouse.cs"
+"Assets/Scripts/DieAndRespawnn.cs"
 "Assets/Scripts/MasterControlProgram.cs"
 "Assets/Scripts/Player Scripts/Cam Barrier.cs"
+"Assets/Scripts/Player Scripts/DeathCheck.cs"
 "Assets/Scripts/Player Scripts/Grappler.cs"
 "Assets/Scripts/Player Scripts/GroundCheck.cs"
 "Assets/Scripts/Player Scripts/PlayerMove.cs"
+"Assets/Scripts/Player Scripts/RespawnTimer.cs"
 -langversion:9.0
 /deterministic
 /optimize+
