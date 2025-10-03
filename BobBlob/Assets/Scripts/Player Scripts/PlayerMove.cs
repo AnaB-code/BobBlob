@@ -93,4 +93,9 @@ public class PlayerMove : MonoBehaviour
     {
         isGrounded = yn;
     }
+
+    public void SetBounce(float spring) {
+        velocity.y = velocity.y + spring;
+
+    }
 }

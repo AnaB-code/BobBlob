@@ -1,6 +1,5 @@
-/BobBlob/Library/
+/BobBlob/[Ll]ibrary/
 /BobBlob/Logs/
-/BobBlob-broken/
 /BobBlob/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 /BobBlob/Temp/
 /BobBlob/[Oo]bj/
@@ -8,3 +7,5 @@
 /BobBlob/[Bb]uilds/
 /BobBlob/[Uu]ser[Ss]ettings/
 /BobBlob/.vs/
+.DS_Store
+desktop.ini
