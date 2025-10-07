@@ -425,12 +425,15 @@
 "Assets/Scripts/DetectMouse.cs"
 "Assets/Scripts/DieAndRespawnn.cs"
 "Assets/Scripts/MasterControlProgram.cs"
+"Assets/Scripts/movingPlatform.cs"
 "Assets/Scripts/Player Scripts/Cam Barrier.cs"
 "Assets/Scripts/Player Scripts/DeathCheck.cs"
 "Assets/Scripts/Player Scripts/Grappler.cs"
 "Assets/Scripts/Player Scripts/GroundCheck.cs"
 "Assets/Scripts/Player Scripts/PlayerMove.cs"
 "Assets/Scripts/Player Scripts/RespawnTimer.cs"
+"Assets/Scripts/spring.cs"
+"Assets/Scripts/tempPlatform.cs"
 -langversion:9.0
 /deterministic
 /optimize+

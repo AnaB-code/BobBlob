@@ -17,9 +17,9 @@ public class DieAndRespawnn : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.CompareTag("Player")) //checks if what hits it is the player
+        if (other.gameObject.CompareTag("Player")) //checks if what hits it is the player
         {
             player.transform.position = respawnPoint.transform.position; //puts player at respawn point
             player.SetActive(false); //disables player (is tempoary)
