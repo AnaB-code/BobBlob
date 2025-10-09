@@ -605,7 +605,7 @@ MonoBehaviour:
   jump: 8
   jumpFallSpeed: 1.5
   isGrounded: 0
-  maxV: -7.15
+  maxV: -50
 --- !u!50 &741986997
 Rigidbody2D:
   serializedVersion: 5
@@ -622,7 +622,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 83d1056d732c0dc42b272ded410fa4dd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -800,7 +800,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 83d1056d732c0dc42b272ded410fa4dd, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

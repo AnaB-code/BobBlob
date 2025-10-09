@@ -11,7 +11,7 @@ public class PlayerMove : MonoBehaviour
 
     private Vector2 velocity; //for moving player
 
-    private float gravity = -10f; //gravity
+    //private float gravity = -10f; //gravity
     public float jumpFallSpeed = 1.5f;
 
     private float coyoteTime = 0.2f; //amount of coyoteTime
@@ -73,7 +73,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            velocity.y += gravity * Time.deltaTime * jumpFallSpeed; //falls
+            velocity.y += Physics.gravity.y * Time.deltaTime * jumpFallSpeed; //falls
             if (velocity.y < maxV)
             {
                 velocity.y = maxV;
