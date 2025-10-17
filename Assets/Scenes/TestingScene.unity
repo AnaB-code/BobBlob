@@ -1198,12 +1198,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757f915f7baa12c41be6f2f259d4b6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 741986997}
-  speed: 6
+  useForce: 0
+  forceSpeed: 10
+  velSpeed: 10
   jump: 8
-  jumpFallSpeed: 1.5
+  coyoteTime: 0.2
+  jumpInputTime: 0.2
   isGrounded: 0
-  maxV: -7.15
 --- !u!50 &741986997
 Rigidbody2D:
   serializedVersion: 5
@@ -1217,9 +1218,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 3
-  m_LinearDamping: 0
-  m_AngularDamping: 0
-  m_GravityScale: 0
+  m_LinearDamping: 1
+  m_AngularDamping: 1
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2171,7 +2172,7 @@ GameObject:
   - component: {fileID: 1485226246}
   m_Layer: 0
   m_Name: TestPointforGrapple
-  m_TagString: Ground
+  m_TagString: Grapplable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

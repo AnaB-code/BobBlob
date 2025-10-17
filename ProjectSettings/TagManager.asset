@@ -8,6 +8,8 @@ TagManager:
   - Stick
   - Shovel
   - Grabbale
+  - Door
+  - Grapplable
   layers:
   - Default
   - TransparentFX
