@@ -4,98 +4,92 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public Rigidbody2D rb; //var for character controller on player
+    Rigidbody2D rb; //var for character controller on player
 
-    public float speed = 4; //player speed
-    public float jump = 3; //player jump force
+    // grappling script sets this, not whether grounded etc
+    public bool useForce = false; // use AddForce (grappling) or set velocity directly (movement)
+    public float forceSpeed = 10; //player speed when using AddForce
+    public float velSpeed = 10; //player speed when setting velocity directly
+    public float jump = 5; //player jump: set relative to speed. Always uses setVelocity
 
-    private Vector2 velocity; //for moving player
+    //public float jumpFallSpeed = 1.5f;
 
-    //private float gravity = -10f; //gravity
-    public float jumpFallSpeed = 1.5f;
-
-    private float coyoteTime = 0.2f; //amount of coyoteTime
+    [Min(0f)] public float coyoteTime = 0.2f; //amount of coyoteTime
     private float coyoteTimeCounter; //coyoteTime counter
 
-    private float jumpBufferTime = 0.2f; //amount of jump input buffer
-    private float jumpBufferCounter; //jump buffer window counter
+    [Min(0f)] public float jumpInputTime = 0.2f; // how long you can hold jump key to increase jump height
+    private float jumpInputCounter; //jump buffer window counter
 
-    public bool isGrounded = false; //bool for weather player is on the ground or not
+    public bool isGrounded = true; //bool for weather player is on the ground or not
 
-    public float maxV = 0;
+    //public float maxV = 0;
 
-    // Start is called before the first frame update
-    void Start() {
-
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
-        //Debug.Log(velocity.y);
-        //Debug.Log(velocity.x);
-        //Debug.Log(jumpFallSpeed);
     }
 
     void Move()
     {
-        velocity.x = speed * Input.GetAxis("Horizontal"); //gets horizontal input
+        // SetVelocity (movement) versus AddForce (while grappling)
+        if (useForce)
+        {
+            // Can use one or both axes! Horiz is most realistic for swing motion,
+            // but vertical helps you do 360 loops ;)  powerup?
+            rb.AddForceX(forceSpeed * Input.GetAxis("Horizontal"));
+            //rb.AddForceY(forceSpeed * Input.GetAxis("Vertical"));
+        }
+        else
+        {
+            // Only horiz axis (no vertical movement besides jumping)
+            rb.linearVelocityX = velSpeed * Input.GetAxis("Horizontal");
+        }
 
         if (isGrounded == true) //detects if player is on ground
         {
-            coyoteTimeCounter = coyoteTime; //resets counter
+            coyoteTimeCounter = coyoteTime; //resets counters to full
+            jumpInputCounter = jumpInputTime;
         }
         else
         {
-            coyoteTimeCounter -= Time.deltaTime; //counts down coyote time
+            coyoteTimeCounter -= Time.deltaTime; //counts down timer
         }
 
-        if (Input.GetKeyDown("space")) //detects if space is pressed
+        // Using GetKey so it can be held a bit longer for higher jumps
+        // BUT with time limit (jumpBufferCounter)
+        if (Input.GetKey("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
         {
-            jumpBufferCounter = jumpBufferTime; //resets counter
-            jumpFallSpeed = 1.5f;
-        }
-        else
-        {
-            jumpBufferCounter -= Time.deltaTime; //counts down buffer window
+            rb.linearVelocityY = jump;
+            jumpInputCounter -= Time.deltaTime;
         }
 
-        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f) //detects if coyoteTime + jump buffer avaiable
+        if (Input.GetKeyUp("space"))
         {
-            velocity.y = jump; //jumps
-            jumpBufferCounter = 0f; //pervents double jump
-        }
-        else if (Input.GetKeyUp("space") && velocity.y > 0f) //varies jump height by if space is held vs tapped
-        {
-            velocity.y = velocity.y * 0.5f;
-            coyoteTimeCounter = 0f; //pervents double jump
-        }
-        else
-        {
-            velocity.y += Physics.gravity.y * Time.deltaTime * jumpFallSpeed; //falls
-            if (velocity.y < maxV)
-            {
-                velocity.y = maxV;
-            }
+            coyoteTimeCounter = 0; //resets counter, prevents further jumps
+            // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
         }
 
-        if (isGrounded == true && velocity.y <= -.51f) //pervents ground clipping
-        {
-            velocity.y = -1.1f;
-            jumpFallSpeed = 1;
-        }
 
-        rb.linearVelocity = velocity;
     }
 
+    // Don't know if OnGround is needed/used anywhere
     public void OnGround(bool yn)
     {
         isGrounded = yn;
     }
 
-    public void SetBounce(float spring) {
-        velocity.y = velocity.y + spring;
-
+    public void SetBounce(float spring)
+    {
+        rb.linearVelocityY += spring;
+    }
+    public void SetUseForce(bool force) // So can change move method while grappling
+                                        // grappler script calls this
+    {
+        useForce = force;
     }
 }

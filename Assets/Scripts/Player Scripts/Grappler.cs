@@ -1,23 +1,26 @@
 using UnityEngine;
 
-public class Grappler : MonoBehaviour  {
+public class Grappler : MonoBehaviour
+{
     public Camera mainCamera;
     public LineRenderer lineRenderer;
     public DistanceJoint2D distanceJoint;
+    PlayerMove playerMoveScript;
 
     public string grab = null;
     public bool grabbing = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() 
+    void Start()
     {
+        playerMoveScript = GetComponent<PlayerMove>();
         distanceJoint.enabled = false;
     }
 
     // Update is called once per frame
-    void Update() 
+    void Update()
     {
-        if (grab == "Ground" || grabbing == true)
+        if (grab == "Grapplable" || grabbing == true)
         {
             Grab();
         }
@@ -25,7 +28,7 @@ public class Grappler : MonoBehaviour  {
 
     void Grab()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = (Vector2)mainCamera.ScreenToWorldPoint(Input.mousePosition);
             lineRenderer.SetPosition(0, mousePos);
@@ -34,13 +37,15 @@ public class Grappler : MonoBehaviour  {
             distanceJoint.enabled = true;
             lineRenderer.enabled = true;
             grabbing = true;
+            playerMoveScript.SetUseForce(true);
         }
 
-        else if (Input.GetKeyUp(KeyCode.Mouse0))
+        else if (Input.GetMouseButtonUp(0))
         {
             distanceJoint.enabled = false;
             lineRenderer.enabled = false;
             grabbing = false;
+            playerMoveScript.SetUseForce(false);
         }
 
         if (distanceJoint.enabled)
