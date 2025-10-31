@@ -5,9 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - Stick
-  - Shovel
-  - Grabbale
+  - Door
+  - Grabbable
   layers:
   - Default
   - TransparentFX
