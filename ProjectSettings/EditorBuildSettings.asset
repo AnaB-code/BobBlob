@@ -6,6 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 474b0822a375cee40a382bf63bcd6c1e
+  - enabled: 1
     path: Assets/Scenes/TestingScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/hlfry98Scene.unity
+    guid: 52dc4c949c270f54782d386ab373aea5
+  - enabled: 1
+    path: Assets/Scenes/tgknollArena.unity
+    guid: 94fabd0202a94f54ebebefa546697d94
+  - enabled: 1
+    path: Assets/Scenes/Gameplayscene.unity
+    guid: acd93e6b8307296478d59a0b88179444
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
