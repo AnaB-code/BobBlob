@@ -7,4 +7,9 @@ public class menuButton : MonoBehaviour {
         Debug.Log("You clicked me! You should be loading " + sceneToLoad);
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneToLoad);
     }
+
+    public void QuitGame() {
+        Debug.Log("Bye bye!");
+        Application.Quit();
+    }
 }
