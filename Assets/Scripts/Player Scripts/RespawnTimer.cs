@@ -23,6 +23,11 @@ public class RespawnTimer : MonoBehaviour
         if (isDead == true) //checks if player is dead
         {
             respawnDelay -= Time.deltaTime; //decreases timer
+            
+            player.GetComponent<PlayerMove>().SetUseForce(false); //fixes bug where if player dies with grappler and releases mouse button before respawn finishes, grappler is still active
+            player.GetComponent<Grappler>().grabbing = false;
+            player.GetComponent<LineRenderer>().enabled = false;
+            player.GetComponent<DistanceJoint2D>().enabled = false;
         }
         if (respawnDelay <= 0) //checks if timer is done, if done resets everything
         {

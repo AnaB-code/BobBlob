@@ -11,7 +11,7 @@ public class PressureButton : MonoBehaviour
         
     }
     private void OnCollisionStay2D(Collision2D collision){
-        if(collision.transform.name == "Box" || collision.transform.name == "Player" ){
+        if(collision.transform.name == "Box" || collision.transform.name == "Player" || collision.transform.tag == "Grabbable"){
             transform.Translate(0, -0.005f, 0);
             returnPos = false;
             
