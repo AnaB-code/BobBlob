@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DieAndRespawnn : MonoBehaviour
 {
@@ -22,7 +23,9 @@ public class DieAndRespawnn : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) //checks if what hits it is the player
         {
             player.transform.position = respawnPoint.transform.position; //puts player at respawn point
-            player.SetActive(false); //disables player (is tempoary)
+            player.SetActive(false); //disables player (is tempoary) 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
         }
     }
 }

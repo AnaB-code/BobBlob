@@ -178,8 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   distanceJoint: {fileID: 0}
-  lineRenderer: {fileID: 0}
-  rb: {fileID: 0}
+  lineRenderer: {fileID: 8659177563151677387}
+  rb: {fileID: 1669682324671128966}
   maxDistance: 0
 --- !u!120 &8659177563151677387
 LineRenderer:

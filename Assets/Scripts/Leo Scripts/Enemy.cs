@@ -10,9 +10,11 @@ public class Enemy : MonoBehaviour
 
     
     public Transform player;
-    public float visionRange = 5f;
-    public float visionAngle = 45f; 
+    public float visionRange = 10f;
+    public float visionAngle = 360f; 
     private bool chasingPlayer = false;
+    private bool IsGrounded = true;
+    private Vector3 trackPosition;
 
     void Update()
     {
@@ -61,7 +63,9 @@ public class Enemy : MonoBehaviour
  
     void ChasePlayer()
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        if(IsGrounded ==true){
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(player.position.x,transform.position.y), speed * Time.deltaTime);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)

@@ -5,6 +5,7 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     public PlayerMove pm;
+    public BouncingController bc;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +22,16 @@ public class GroundCheck : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the player is on the ground
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Grabbable"))
         {
-            pm.OnGround(true);
+            if(bc.bouncy ==0){
+                pm.OnGround(true);
+            }
+            else{
+                bc.SetCurrentGround(collision);
+                bc.Bounce(collision);
+            }
+            //pm.OnGround(true);
         }
     }
 

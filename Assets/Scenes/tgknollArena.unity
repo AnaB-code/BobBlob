@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &6673556
 Rigidbody2D:
   serializedVersion: 5
@@ -329,11 +329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156d84a7a3b38bb469456dfca2e3108e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1950362205}
-  distanceJoint: {fileID: 6673561}
-  lineRenderer: {fileID: 1950362208}
-  rb: {fileID: 6673556}
-  maxDistance: 9
 --- !u!1 &343554146
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pm: {fileID: 1950362212}
+  bc: {fileID: 0}
 --- !u!1 &496621636
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,6 +777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pm: {fileID: 1950362212}
+  bc: {fileID: 0}
 --- !u!1 &940315542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757f915f7baa12c41be6f2f259d4b6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bc: {fileID: 0}
   useForce: 0
   forceSpeed: 10
   velSpeed: 10
@@ -1963,7 +1961,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1950362205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0cb410bb7008c944a53ec091d5ce078, type: 3}
+  m_Script: {fileID: 11500000, guid: 785d631e2de1053438adfdd34e078eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1950362215}

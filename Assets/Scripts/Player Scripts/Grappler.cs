@@ -20,7 +20,7 @@ public class Grappler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grab == "Grapplable" || grabbing == true)
+        if (grab == "Grabbable" || grabbing == true)
         {
             Grab();
         }

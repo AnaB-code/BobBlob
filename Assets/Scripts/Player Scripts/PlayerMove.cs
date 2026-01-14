@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     Rigidbody2D rb; //var for character controller on player
+    public BouncingController bc;
 
     // grappling script sets this, not whether grounded etc
     public bool useForce = false; // use AddForce (grappling) or set velocity directly (movement)
@@ -31,6 +32,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(bc.bouncy);
         Move();
     }
 
@@ -62,7 +64,7 @@ public class PlayerMove : MonoBehaviour
 
         // Using GetKey so it can be held a bit longer for higher jumps
         // BUT with time limit (jumpBufferCounter)
-        if (Input.GetKey("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
+        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
         {
             rb.linearVelocityY = jump;
             jumpInputCounter -= Time.deltaTime;
@@ -72,9 +74,17 @@ public class PlayerMove : MonoBehaviour
         {
             coyoteTimeCounter = 0; //resets counter, prevents further jumps
             // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
+            bc.bouncy = 1;
+            rb.sharedMaterial.bounciness = bc.bouncy;
+            rb.sharedMaterial = rb.sharedMaterial;
         }
 
-
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            bc.bouncy = 0;
+            rb.sharedMaterial.bounciness = bc.bouncy;
+            rb.sharedMaterial = rb.sharedMaterial;
+        }
     }
 
     // Don't know if OnGround is needed/used anywhere
@@ -83,9 +93,12 @@ public class PlayerMove : MonoBehaviour
         isGrounded = yn;
     }
 
-    public void SetBounce(float spring)
+    public void SetBounce(float springX, float springY)
     {
-        rb.linearVelocityY += spring;
+           // rb.AddForceX(springX);
+
+        //rb.linearVelocityX += springX; // getting overriden by movement (?)
+        rb.linearVelocityY += springY;
     }
     public void SetUseForce(bool force) // So can change move method while grappling
                                         // grappler script calls this

@@ -1,7 +1,8 @@
 using UnityEngine;
 
 public class spring : MonoBehaviour {
-    public float jumpForce;
+    public float jumpForceX;
+    public float jumpForceY;
     void Start() {
         
     }
@@ -13,7 +14,7 @@ public class spring : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D other) {
         Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("Player")) {
-            other.gameObject.GetComponent<PlayerMove>().SetBounce(jumpForce);
+            other.gameObject.GetComponent<PlayerMove>().SetBounce(jumpForceX, jumpForceY);
             
         }
     }

@@ -7,9 +7,10 @@ TagManager:
   - Ground
   - Stick
   - Shovel
-  - Grabbable
+  - Circle
   - Door
-  - Grapplable
+  - Grabbable
+  - Box
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - UI
   - Ground
   - Grapplable
-  - 
+  - background
   - 
   - 
   - 
