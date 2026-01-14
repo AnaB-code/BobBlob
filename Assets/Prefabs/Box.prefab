@@ -180,7 +180,7 @@ MonoBehaviour:
   distanceJoint: {fileID: 0}
   lineRenderer: {fileID: 8659177563151677387}
   rb: {fileID: 1669682324671128966}
-  maxDistance: 0
+  maxDistance: 5
 --- !u!120 &8659177563151677387
 LineRenderer:
   serializedVersion: 2
