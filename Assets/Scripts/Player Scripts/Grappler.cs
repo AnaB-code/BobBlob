@@ -38,6 +38,7 @@ public class Grappler : MonoBehaviour
             lineRenderer.enabled = true;
             grabbing = true;
             playerMoveScript.SetUseForce(true);
+            //Debug.Log("Useing force");
         }
 
         else if (Input.GetMouseButtonUp(0))
@@ -46,6 +47,7 @@ public class Grappler : MonoBehaviour
             lineRenderer.enabled = false;
             grabbing = false;
             playerMoveScript.SetUseForce(false);
+            //Debug.Log("Not useing force");
         }
 
         if (distanceJoint.enabled)

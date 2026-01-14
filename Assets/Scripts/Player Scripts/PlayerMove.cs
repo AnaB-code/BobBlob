@@ -21,6 +21,7 @@ public class PlayerMove : MonoBehaviour
     private float jumpInputCounter; //jump buffer window counter
 
     public bool isGrounded = true; //bool for weather player is on the ground or not
+    public BouncingController bc;
 
     //public float maxV = 0;
 
@@ -72,6 +73,9 @@ public class PlayerMove : MonoBehaviour
         {
             coyoteTimeCounter = 0; //resets counter, prevents further jumps
             // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
+            bc.bouncy = 1;
+            rb.sharedMaterial.bounciness = bc.bouncy;
+            rb.sharedMaterial = rb.sharedMaterial;
         }
 
 
@@ -87,6 +91,7 @@ public class PlayerMove : MonoBehaviour
     {
         rb.linearVelocityY += spring;
     }
+
     public void SetUseForce(bool force) // So can change move method while grappling
                                         // grappler script calls this
     {

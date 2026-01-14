@@ -5,6 +5,8 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     public PlayerMove pm;
+    //public Rigidbody2D player;
+    public BouncingController bc;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +25,16 @@ public class GroundCheck : MonoBehaviour
         // Check if the player is on the ground
         if (collision.gameObject.CompareTag("Ground"))
         {
-            pm.OnGround(true);
+            if (bc.bouncy == 0)
+            {
+                //pm.SetUseForce(false);
+                pm.OnGround(true);
+            }
+            else
+            {
+                bc.SetCurrentGround(collision);
+                bc.Bounce(collision);
+            }
         }
     }
 
@@ -31,5 +42,6 @@ public class GroundCheck : MonoBehaviour
     {
         // Sets Grounded state to false
         pm.OnGround(false);
+        //pm.SetUseForce(true);
     }
 }
