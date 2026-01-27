@@ -16,19 +16,14 @@ public class Enemy : MonoBehaviour
     private bool IsGrounded = true;
     private Vector3 trackPosition;
 
-    void Update()
-    {
- 
+    void Update() {
         Vector2 directionToPlayer = player.position - transform.position;
         float distanceToPlayer = directionToPlayer.magnitude;
         float angleToPlayer = Vector2.Angle(transform.right, directionToPlayer);
 
-        if (distanceToPlayer < visionRange && angleToPlayer < visionAngle / 2f)
-        {
+        if (distanceToPlayer < visionRange && angleToPlayer < visionAngle / 2f) {
             chasingPlayer = true;
-        }
-        else
-        {
+        } else {
             chasingPlayer = false;
         }
 

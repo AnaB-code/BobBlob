@@ -1,23 +1,20 @@
 using UnityEngine;
 
-public class BouncingController : MonoBehaviour
-{
+public class BouncingController : MonoBehaviour {
     public Rigidbody2D player;
     public PlayerMove pm;
     public float bouncy = 1;
     public GameObject surface1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+    void Start() {
         player.sharedMaterial.bounciness = 0;
         player.sharedMaterial = player.sharedMaterial;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
+    void Update() {
+        //Debug.Log(bouncy);
     }
 
     public void SetCurrentGround(Collision2D other)
@@ -44,10 +41,9 @@ public class BouncingController : MonoBehaviour
 
     public void Bounce(Collision2D other)
     {
-        bouncy = bouncy - 0.1f;
+        bouncy -= 0.1f;
 
-        if (bouncy < 0.2)
-        {
+        if (bouncy < 0.2) {
             bouncy = 0;
             pm.OnGround(true);
         }

@@ -189,7 +189,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 19.740145
+  m_Distance: 3.4600055
   m_MaxDistanceOnly: 0
 --- !u!120 &5570440652834868188
 LineRenderer:
@@ -411,7 +411,7 @@ MonoBehaviour:
   useForce: 0
   forceSpeed: 10
   velSpeed: 10
-  jump: 5
+  jump: 7.5
   coyoteTime: 0.2
   jumpInputTime: 0.2
   isGrounded: 1
