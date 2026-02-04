@@ -7,27 +7,12 @@ public class GroundCheck : MonoBehaviour
     public PlayerMove pm;
     public BouncingController bc;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
+    private void OnCollisionEnter2D(Collision2D collision) {
         // Check if the player is on the ground
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Grabbable"))
-        {
-            if(bc.bouncy ==0){
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Grabbable")) {
+            if(bc.bouncy == 0) {
                 pm.OnGround(true);
-            }
-            else{
+            } else {
                 bc.SetCurrentGround(collision);
                 bc.Bounce(collision);
             }
@@ -35,8 +20,7 @@ public class GroundCheck : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
+    private void OnCollisionExit2D(Collision2D collision) {
         // Sets Grounded state to false
         pm.OnGround(false);
     }

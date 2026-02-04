@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
-{
+public class PlayerMove : MonoBehaviour {
     Rigidbody2D rb; //var for character controller on player
     public BouncingController bc;
 
@@ -25,53 +24,41 @@ public class PlayerMove : MonoBehaviour
 
     //public float maxV = 0;
 
-    void Start()
-    {
+    void Start() {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        Debug.Log(bc.bouncy);
+    void Update() {
         Move();
     }
 
-    void Move()
-    {
+    void Move() {
         // SetVelocity (movement) versus AddForce (while grappling)
-        if (useForce)
-        {
+        if (useForce) {
             // Can use one or both axes! Horiz is most realistic for swing motion,
             // but vertical helps you do 360 loops ;)  powerup?
             rb.AddForceX(forceSpeed * Input.GetAxis("Horizontal"));
             //rb.AddForceY(forceSpeed * Input.GetAxis("Vertical"));
-        }
-        else
-        {
+        } else {
             // Only horiz axis (no vertical movement besides jumping)
             rb.linearVelocityX = velSpeed * Input.GetAxis("Horizontal");
         }
 
-        if (isGrounded == true) //detects if player is on ground
-        {
+        if (isGrounded == true) { //detects if player is on ground
             coyoteTimeCounter = coyoteTime; //resets counters to full
             jumpInputCounter = jumpInputTime;
-        }
-        else
-        {
+        } else {
             coyoteTimeCounter -= Time.deltaTime; //counts down timer
         }
 
         // Using GetKey so it can be held a bit longer for higher jumps
         // BUT with time limit (jumpBufferCounter)
-        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
-        {
+        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f) {
             rb.linearVelocityY = jump;
             jumpInputCounter -= Time.deltaTime;
         }
 
-        if (Input.GetKeyUp("space"))
-        {
+        if (Input.GetKeyUp("space")) {
             coyoteTimeCounter = 0; //resets counter, prevents further jumps
             // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
             bc.bouncy = 1;
@@ -79,8 +66,7 @@ public class PlayerMove : MonoBehaviour
             rb.sharedMaterial = rb.sharedMaterial;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
             bc.bouncy = 0;
             rb.sharedMaterial.bounciness = bc.bouncy;
             rb.sharedMaterial = rb.sharedMaterial;
@@ -88,13 +74,11 @@ public class PlayerMove : MonoBehaviour
     }
 
     // Don't know if OnGround is needed/used anywhere
-    public void OnGround(bool yn)
-    {
+    public void OnGround(bool yn) {
         isGrounded = yn;
     }
 
-    public void SetBounce(float springX, float springY)
-    {
+    public void SetBounce(float springX, float springY) {
            // rb.AddForceX(springX);
 
         //rb.linearVelocityX += springX; // getting overriden by movement (?)

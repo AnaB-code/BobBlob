@@ -6,15 +6,8 @@ public class RespawnTimer : MonoBehaviour
     public GameObject player; //var for player
     public bool isDead = false; //var for storing weather or not the player is dead
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         Timer();
     }
 

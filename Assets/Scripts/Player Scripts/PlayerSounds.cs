@@ -7,6 +7,7 @@ public class PlayerSounds : MonoBehaviour {
     public AudioClip jumpSfx;
     public AudioClip walkSfx;
     public AudioClip splatSfx;
+    public AudioClip deathSfx;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -27,5 +28,9 @@ public class PlayerSounds : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)) {
             audioSource.PlayOneShot(splatSfx);
         }
+    }
+
+    public void DieSound() {
+        audioSource.PlayOneShot(deathSfx);
     }
 }
