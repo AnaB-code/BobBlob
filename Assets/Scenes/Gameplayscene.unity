@@ -326,6 +326,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2346250007475319257, guid: 0d7fe104ad60c374990b21384084678d, type: 3}
   m_PrefabInstance: {fileID: 570601839}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &404762659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+  m_PrefabInstance: {fileID: 2078103428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &404762664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404762659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090caefad59469241b03809a513a98c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  pointA: {fileID: 1987268246}
+  pointB: {fileID: 1308961501}
+  player: {fileID: 914738973}
+  visionRange: 10
+  visionAngle: 90
+>>>>>>> Stashed changes
 --- !u!1001 &469161969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,6 +420,10 @@ GameObject:
   - component: {fileID: 553061524}
   - component: {fileID: 553061523}
   - component: {fileID: 553061525}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 553061526}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -517,6 +547,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &553061526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553061522}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c862557b3488b48ab339a5d4e73c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1001 &570601839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -721,6 +766,28 @@ RectTransform:
   m_AnchoredPosition: {x: -350, y: 200}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &914738962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7975074648577688903, guid: a340a43a1bf91bc418d4bab29e775c31, type: 3}
+  m_PrefabInstance: {fileID: 2232245096080034718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &914738968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914738962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac16734ec2ce8bb49b27a662d7095dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 0}
+  maxHealth: 100
+>>>>>>> Stashed changes
 --- !u!4 &914738973 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6285516347962698514, guid: a340a43a1bf91bc418d4bab29e775c31, type: 3}
@@ -1150,6 +1217,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070460457}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 2070460456}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Timer Controller
   m_TagString: Untagged
@@ -1157,6 +1228,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &2070460456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070460455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e5f5a42b0bbae4a97117d78fc12174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 30
+>>>>>>> Stashed changes
 --- !u!4 &2070460457
 Transform:
   m_ObjectHideFlags: 0
@@ -1254,6 +1341,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: pointA
       value: 
@@ -1262,6 +1350,8 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 1308961501}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -1309,7 +1399,14 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< Updated upstream
     m_AddedComponents: []
+=======
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 404762664}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1001 &1240671093158211097
 PrefabInstance:
@@ -1484,7 +1581,14 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< Updated upstream
     m_AddedComponents: []
+=======
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7975074648577688903, guid: a340a43a1bf91bc418d4bab29e775c31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 914738968}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: a340a43a1bf91bc418d4bab29e775c31, type: 3}
 --- !u!1001 &7434165710365050055
 PrefabInstance:

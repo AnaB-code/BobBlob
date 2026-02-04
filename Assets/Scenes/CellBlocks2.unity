@@ -478,7 +478,11 @@ GameObject:
   - component: {fileID: 224104070}
   - component: {fileID: 224104069}
   - component: {fileID: 224104068}
+<<<<<<< Updated upstream
   - component: {fileID: 224104071}
+=======
+  - component: {fileID: 224104067}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Lever
   m_TagString: Ground
@@ -486,6 +490,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &224104067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224104066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855328f9c05f45f4ab858c6696bb1c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDoorOpen: {fileID: 2112833456}
+>>>>>>> Stashed changes
 --- !u!61 &224104068
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -520,7 +540,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: 0.0024530292, y: 0.015754431}
+=======
+  m_Offset: {x: 0.0011748075, y: 0}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -530,7 +554,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 1.0259486, y: 1.0315089}
+=======
+  m_Size: {x: 1.0051677, y: 1}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!212 &224104069
 SpriteRenderer:
@@ -596,12 +624,17 @@ Transform:
   m_GameObject: {fileID: 224104066}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 27.71, y: 3.93, z: 0}
+=======
+  m_LocalPosition: {x: 27.71, y: 3.959, z: 0}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1.6540328, y: 0.6135, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &224104071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,6 +648,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 2112833456}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &397637607
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,8 +662,13 @@ GameObject:
   - component: {fileID: 397637612}
   - component: {fileID: 397637611}
   - component: {fileID: 397637610}
+<<<<<<< Updated upstream
   - component: {fileID: 397637608}
   - component: {fileID: 397637614}
+=======
+  - component: {fileID: 397637609}
+  - component: {fileID: 397637608}
+>>>>>>> Stashed changes
   m_Layer: 5
   m_Name: OverCanvas
   m_TagString: Untagged
@@ -733,6 +773,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream
+=======
+--- !u!114 &397637609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397637607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c628c8cd50dac6c429b047c88b9fe749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseText: {fileID: 593372348}
+  audioSource: {fileID: 397637608}
+  playerAudioSource: {fileID: 741987005}
+>>>>>>> Stashed changes
 --- !u!114 &397637610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,6 +874,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< Updated upstream
 --- !u!114 &397637614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,6 +890,8 @@ MonoBehaviour:
   pauseText: {fileID: 593372348}
   audioSource: {fileID: 397637608}
   playerAudioSource: {fileID: 741987005}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &429259366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,7 +1173,11 @@ GameObject:
   - component: {fileID: 476264098}
   - component: {fileID: 476264097}
   - component: {fileID: 476264096}
+<<<<<<< Updated upstream
   - component: {fileID: 476264099}
+=======
+  - component: {fileID: 476264095}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Lever 2
   m_TagString: Untagged
@@ -1120,6 +1185,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &476264095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476264094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855328f9c05f45f4ab858c6696bb1c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDoorOpen: {fileID: 2112833456}
+>>>>>>> Stashed changes
 --- !u!61 &476264096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1154,7 +1235,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: -0.0007689297, y: 0.018345714}
+=======
+  m_Offset: {x: 0.020325392, y: 0}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1164,7 +1249,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 1.0281701, y: 1.0366914}
+=======
+  m_Size: {x: 1.0213654, y: 1}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!212 &476264097
 SpriteRenderer:
@@ -1236,6 +1325,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &476264099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1249,6 +1339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 2112833456}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1485,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: -0.018291831, y: 0.0000023841858}
+=======
+  m_Offset: {x: -0.0013651848, y: -0.012040377}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1403,7 +1499,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 4.548888, y: 4.6076546}
+=======
+  m_Size: {x: 4.5827417, y: 4.63174}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!212 &568229325
 SpriteRenderer:
@@ -1746,6 +1846,156 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &650735753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650735758}
+  - component: {fileID: 650735757}
+  - component: {fileID: 650735756}
+  - component: {fileID: 650735755}
+  - component: {fileID: 650735754}
+  m_Layer: 6
+  m_Name: TestPointforGrapple (1)
+  m_TagString: Grabbable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &650735754
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650735753}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &650735755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650735753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f89a02338b7f8a4fbf5f6bc4bc3174d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 741986999}
+--- !u!23 &650735756
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650735753}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &650735757
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650735753}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &650735758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650735753}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.4554, y: -4.32, z: 0}
+  m_LocalScale: {x: 32.574383, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &741986992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,16 +2006,28 @@ GameObject:
   m_Component:
   - component: {fileID: 741986994}
   - component: {fileID: 741986993}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 741986996}
+>>>>>>> Stashed changes
   - component: {fileID: 741986997}
   - component: {fileID: 741986998}
   - component: {fileID: 741987001}
   - component: {fileID: 741987000}
+<<<<<<< Updated upstream
   - component: {fileID: 741987005}
   - component: {fileID: 741987006}
   - component: {fileID: 741987010}
   - component: {fileID: 741987009}
   - component: {fileID: 741987008}
   - component: {fileID: 741987007}
+=======
+  - component: {fileID: 741986999}
+  - component: {fileID: 741987002}
+  - component: {fileID: 741987003}
+  - component: {fileID: 741987005}
+  - component: {fileID: 741987004}
+>>>>>>> Stashed changes
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -1844,6 +2106,29 @@ Transform:
   - {fileID: 1202821284}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &741986996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741986992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757f915f7baa12c41be6f2f259d4b6ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bc: {fileID: 741987003}
+  useForce: 0
+  forceSpeed: 10
+  velSpeed: 10
+  jump: 5
+  coyoteTime: 0.2
+  jumpInputTime: 0.2
+  isGrounded: 0
+>>>>>>> Stashed changes
 --- !u!50 &741986997
 Rigidbody2D:
   serializedVersion: 5
@@ -1856,7 +2141,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
+<<<<<<< Updated upstream
   m_Mass: 2.2403905
+=======
+  m_Mass: 3.3171473
+>>>>>>> Stashed changes
   m_LinearDamping: 0
   m_AngularDamping: 1
   m_GravityScale: 1
@@ -1905,7 +2194,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: 0.08702946, y: -0.27016544}
+=======
+  m_Offset: {x: 0.1011799, y: -0.26383007}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1915,8 +2208,30 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 2.6825895, y: 2.0117302}
   m_EdgeRadius: 0
+=======
+  m_Size: {x: 2.3424325, y: 1.9990592}
+  m_EdgeRadius: 0
+--- !u!114 &741986999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741986992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771470b5e18709d49b24409c0cb11c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 519420031}
+  lineRenderer: {fileID: 741987000}
+  distanceJoint: {fileID: 741987001}
+  maxGrappleDistance: 10
+  grabbing: 0
+>>>>>>> Stashed changes
 --- !u!120 &741987000
 LineRenderer:
   serializedVersion: 2
@@ -1973,13 +2288,29 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
+<<<<<<< Updated upstream
         value: 1
+=======
+        value: 0.3426361
+>>>>>>> Stashed changes
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+<<<<<<< Updated upstream
+=======
+      - serializedVersion: 3
+        time: 0.9791387
+        value: 1.0139531
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+>>>>>>> Stashed changes
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2044,6 +2375,55 @@ DistanceJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 2.776917
   m_MaxDistanceOnly: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &741987002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741986992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c563d90650bda244a88e4f52ea7d0c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rt: {fileID: 1762354776}
+--- !u!114 &741987003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741986992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c974558954f293c4cb7ceb4b06002197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 741986997}
+  pm: {fileID: 741986996}
+  bouncy: 0
+  surface1: {fileID: 0}
+--- !u!114 &741987004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741986992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 785d631e2de1053438adfdd34e078eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 741987005}
+  pmRef: {fileID: 741986996}
+  jumpSfx: {fileID: 8300000, guid: 5ed07641bf8ff3e41b4f04f7ad7186ae, type: 3}
+  walkSfx: {fileID: 8300000, guid: ed74d6cc3ac5c14418aef94a8211a5f9, type: 3}
+  splatSfx: {fileID: 8300000, guid: 5ed07641bf8ff3e41b4f04f7ad7186ae, type: 3}
+>>>>>>> Stashed changes
 --- !u!82 &741987005
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2141,6 +2521,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream
 --- !u!114 &741987006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,6 +2605,8 @@ MonoBehaviour:
   coyoteTime: 0.2
   jumpInputTime: 0.2
   isGrounded: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &778773479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,7 +2705,11 @@ GameObject:
   - component: {fileID: 788649017}
   - component: {fileID: 788649016}
   - component: {fileID: 788649015}
+<<<<<<< Updated upstream
   - component: {fileID: 788649018}
+=======
+  - component: {fileID: 788649014}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Lever 3
   m_TagString: Ground
@@ -2330,6 +2717,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &788649014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788649013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855328f9c05f45f4ab858c6696bb1c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDoorOpen: {fileID: 2112833456}
+>>>>>>> Stashed changes
 --- !u!61 &788649015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2364,7 +2767,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: 0.00068351626, y: 0.021436453}
+=======
+  m_Offset: {x: 0.019731537, y: 0}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2374,7 +2781,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 1.0256243, y: 1.0428728}
+=======
+  m_Size: {x: 0.93650186, y: 1}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!212 &788649016
 SpriteRenderer:
@@ -2446,6 +2857,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &788649018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2593,6 +3005,8 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.7033415, y: 2.5873466}
   m_EdgeRadius: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1155977123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,8 +3018,13 @@ GameObject:
   - component: {fileID: 1155977128}
   - component: {fileID: 1155977127}
   - component: {fileID: 1155977126}
+<<<<<<< Updated upstream
   - component: {fileID: 1155977124}
   - component: {fileID: 1155977129}
+=======
+  - component: {fileID: 1155977125}
+  - component: {fileID: 1155977124}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Opening
   m_TagString: Untagged
@@ -2640,6 +3059,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1155977125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155977123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41b7578ea1a77a49b8a9cf57a718c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: CellBlocks3
+>>>>>>> Stashed changes
 --- !u!61 &1155977126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2756,6 +3191,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &1155977129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2769,6 +3205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: CellBlocks3
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1190328993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,8 +3350,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202821284}
+<<<<<<< Updated upstream
   - component: {fileID: 1202821287}
   - component: {fileID: 1202821288}
+=======
+  - component: {fileID: 1202821286}
+  - component: {fileID: 1202821287}
+>>>>>>> Stashed changes
   m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -2936,6 +3379,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 741986994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1202821286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202821283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5652f883912b244a27180792f29b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pm: {fileID: 741986996}
+  bc: {fileID: 741987003}
+>>>>>>> Stashed changes
 --- !u!61 &1202821287
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2970,7 +3430,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: 0, y: 0.3265104}
+=======
+  m_Offset: {x: 0.10113788, y: 0.7431162}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2980,6 +3444,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 0.7, y: 1.3469791}
   m_EdgeRadius: 0
 --- !u!114 &1202821288
@@ -2996,6 +3461,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pm: {fileID: 741987010}
   bc: {fileID: 741987009}
+=======
+  m_Size: {x: 2.3447638, y: 2.006053}
+  m_EdgeRadius: 0
+>>>>>>> Stashed changes
 --- !u!1 &1386791981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,13 +3510,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d74c2a5c18b41b43bf1441ce44054a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   leftLimit: 5
+=======
+  leftLimit: -20
+>>>>>>> Stashed changes
   rightLimit: 20
   celingLimit: 3
   floorLimit: 2.17
   Player: {fileID: 741986994}
   cam: {fileID: 1386791982}
+<<<<<<< Updated upstream
   move: {x: 0, y: 0, z: 0}
+=======
+  move: {x: 0, y: 2.17, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1485226239
 GameObject:
   m_ObjectHideFlags: 0
@@ -3059,8 +3536,13 @@ GameObject:
   - component: {fileID: 1485226243}
   - component: {fileID: 1485226242}
   - component: {fileID: 1485226241}
+<<<<<<< Updated upstream
   - component: {fileID: 1485226246}
   - component: {fileID: 1485226247}
+=======
+  - component: {fileID: 1485226245}
+  - component: {fileID: 1485226246}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: TestPointforGrapple
   m_TagString: Grabbable
@@ -3136,6 +3618,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1485226245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485226239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f89a02338b7f8a4fbf5f6bc4bc3174d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 741986999}
+>>>>>>> Stashed changes
 --- !u!61 &1485226246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3182,6 +3680,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!114 &1485226247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3195,6 +3694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   g: {fileID: 741987006}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1557560449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,8 +3881,13 @@ GameObject:
   - component: {fileID: 1663427693}
   - component: {fileID: 1663427692}
   - component: {fileID: 1663427691}
+<<<<<<< Updated upstream
   - component: {fileID: 1663427694}
   - component: {fileID: 1663427695}
+=======
+  - component: {fileID: 1663427690}
+  - component: {fileID: 1663427694}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: floating platform
   m_TagString: Ground
@@ -3389,6 +3895,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1663427690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663427688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ddc8251a2893564393144ea55ffe244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 15, y: -2.5}
+  - {x: 15, y: 6}
+  speed: 0.5
+>>>>>>> Stashed changes
 --- !u!61 &1663427691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3423,7 +3948,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
+<<<<<<< Updated upstream
   m_Offset: {x: 0.000000834465, y: 0}
+=======
+  m_Offset: {x: -0.003758788, y: -0.00868082}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3433,7 +3962,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 4.662244, y: 4.024906}
+=======
+  m_Size: {x: 4.594576, y: 4.675804}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!212 &1663427692
 SpriteRenderer:
@@ -3499,8 +4032,13 @@ Transform:
   m_GameObject: {fileID: 1663427688}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 10, y: -2, z: 0}
   m_LocalScale: {x: 1.1196972, y: 0.27665585, z: 1}
+=======
+  m_LocalPosition: {x: 15.01, y: -2.3445, z: 0}
+  m_LocalScale: {x: 1.1196972, y: 0.18812598, z: 1}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3532,6 +4070,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< Updated upstream
 --- !u!114 &1663427695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3548,6 +4087,8 @@ MonoBehaviour:
   - {x: 10, y: -2}
   - {x: 10, y: 5}
   speed: 2
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1671469334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,7 +4377,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57edb7b7e3dce441b53b10c2a46264c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   respawnDelay: 0
+=======
+  respawnDelay: 1
+>>>>>>> Stashed changes
   player: {fileID: 741986992}
   isDead: 0
 --- !u!1 &1841320607
@@ -4369,7 +4914,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2014447992}
+<<<<<<< Updated upstream
   - {fileID: 919041231}
+=======
+>>>>>>> Stashed changes
   - {fileID: 1386791982}
   - {fileID: 741986994}
   - {fileID: 1671469338}
@@ -4377,6 +4925,10 @@ SceneRoots:
   - {fileID: 1841320609}
   - {fileID: 2117464832}
   - {fileID: 1485226243}
+<<<<<<< Updated upstream
+=======
+  - {fileID: 650735758}
+>>>>>>> Stashed changes
   - {fileID: 1762354775}
   - {fileID: 475847959}
   - {fileID: 628726393}

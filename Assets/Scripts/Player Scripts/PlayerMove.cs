@@ -32,7 +32,10 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+<<<<<<< Updated upstream
         Debug.Log(bc.bouncy);
+=======
+>>>>>>> Stashed changes
         Move();
     }
 
@@ -64,7 +67,11 @@ public class PlayerMove : MonoBehaviour
 
         // Using GetKey so it can be held a bit longer for higher jumps
         // BUT with time limit (jumpBufferCounter)
+<<<<<<< Updated upstream
         if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
+=======
+        if (Input.GetKey("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
+>>>>>>> Stashed changes
         {
             rb.linearVelocityY = jump;
             jumpInputCounter -= Time.deltaTime;
@@ -79,12 +86,16 @@ public class PlayerMove : MonoBehaviour
             rb.sharedMaterial = rb.sharedMaterial;
         }
 
+<<<<<<< Updated upstream
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             bc.bouncy = 0;
             rb.sharedMaterial.bounciness = bc.bouncy;
             rb.sharedMaterial = rb.sharedMaterial;
         }
+=======
+
+>>>>>>> Stashed changes
     }
 
     // Don't know if OnGround is needed/used anywhere

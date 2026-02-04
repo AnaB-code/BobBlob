@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 2903016506981504680}
   - component: {fileID: 5936723244154044140}
   - component: {fileID: 430444933781720431}
+<<<<<<< Updated upstream
   - component: {fileID: 6908543975352630700}
+=======
+  - component: {fileID: 213405306050997731}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Death Platform
   m_TagString: Respawn
@@ -135,7 +139,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!114 &6908543975352630700
+=======
+--- !u!114 &213405306050997731
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

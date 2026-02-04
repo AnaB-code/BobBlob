@@ -16,15 +16,26 @@ public class DetectMouse : MonoBehaviour
         
     }
 
+ void OnMouseDown() // Automatically knows it's inside the collider
+    {
+        Debug.Log("Mouse Down");
+        g.Grabbed(true);
+    }
+
     void OnMouseOver()
     {
-        //Debug.Log("Mouse on");
-        g.SetGrab(this.tag);
+        // Debug.Log("Mouse over");
+        // g.SetGrab(this.tag);
     }
 
     void OnMouseExit()
     {
-        //Debug.Log("Mouse off");
-        g.SetGrab(null);
+        Debug.Log("Mouse exit");
+        // g.SetGrab(null);
+    }
+    void OnMouseUp()
+    {
+        Debug.Log("Mouse up");
+        // g.SetGrab(null);
     }
 }
