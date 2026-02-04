@@ -5,8 +5,10 @@ public class GrabbableBox : MonoBehaviour {
     public DistanceJoint2D distanceJoint;
     public LineRenderer lineRenderer;
     public Rigidbody2D rb;
+    public float mouseDragSpeed = 10f;
+    bool isGrabbed = false;
 
-    public float maxDistance;
+    public float maxDistance = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -25,21 +27,31 @@ public class GrabbableBox : MonoBehaviour {
     void OnMouseDown() {
         Debug.Log(Vector2.Distance(player.transform.position, transform.position));
         if (Vector2.Distance(player.transform.position, transform.position) <= maxDistance) {
+            isGrabbed = true;
             distanceJoint.connectedAnchor = player.transform.position;
             distanceJoint.enabled = true;
             lineRenderer.enabled = true;
+            print("mouseDown");
         }
     }
 
     void OnMouseUp() {
+        isGrabbed = false;
         distanceJoint.enabled = false;
         lineRenderer.enabled = false;
+        print("Let go");
     }
 
     void OnMouseDrag() {
-        rb.AddForce(Input.mousePositionDelta * 10f);
+        if (isGrabbed == true) {
+                    rb.AddForce(Input.mousePositionDelta * mouseDragSpeed);
+        }
 
-        if (distanceJoint.distance > maxDistance) {
+      if (Vector2.Distance(player.transform.position, transform.position) > maxDistance) {
+            print("Too far");
+            isGrabbed = false;
+             distanceJoint.enabled = false;
+            lineRenderer.enabled = false;
             //transform.position = curPosition;
             //print("ouchie");
         }
