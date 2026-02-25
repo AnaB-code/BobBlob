@@ -1,8 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+//using System.Diagnostics;
+//using System.Numerics;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour {
+public class PlayerMove : MonoBehaviour
+{
     Rigidbody2D rb; //var for character controller on player
     public BouncingController bc;
 
@@ -20,66 +24,105 @@ public class PlayerMove : MonoBehaviour {
     [Min(0f)] public float jumpInputTime = 0.2f; // how long you can hold jump key to increase jump height
     private float jumpInputCounter; //jump buffer window counter
 
-    public bool isGrounded = true; //bool for weather player is on the ground or not
+    public bool isGrounded = false; //bool for weather player is on the ground or not
 
     //public float maxV = 0;
 
-    void Start() {
+    void Start()
+    {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update() {
+    void Update()
+    {
         Move();
+
+        // isGrounded = isTouchingGround;
+        // if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        // {
+        //     rb.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+        // }
     }
 
-    void Move() {
+    void FixedUpdate()
+    {
+        // isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0f); // , transform.localScale.y / 2 + 0.08f
+        // Debug.Log(isGrounded);
+    }
+    void Move()
+    {
         // SetVelocity (movement) versus AddForce (while grappling)
-        if (useForce) {
+        if (useForce)
+        {
             // Can use one or both axes! Horiz is most realistic for swing motion,
             // but vertical helps you do 360 loops ;)  powerup?
             rb.AddForceX(forceSpeed * Input.GetAxis("Horizontal"));
             //rb.AddForceY(forceSpeed * Input.GetAxis("Vertical"));
-        } else {
+        }
+        else
+        {
             // Only horiz axis (no vertical movement besides jumping)
             rb.linearVelocityX = velSpeed * Input.GetAxis("Horizontal");
         }
 
-        if (isGrounded == true) { //detects if player is on ground
+        if (isGrounded == true)
+        { //detects if player is on ground
             coyoteTimeCounter = coyoteTime; //resets counters to full
             jumpInputCounter = jumpInputTime;
-        } else {
+        }
+        else
+        {
             coyoteTimeCounter -= Time.deltaTime; //counts down timer
         }
 
         // Using GetKey so it can be held a bit longer for higher jumps
         // BUT with time limit (jumpBufferCounter)
-        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f) {
+        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
+        {
             rb.linearVelocityY = jump;
             jumpInputCounter -= Time.deltaTime;
+             rb.sharedMaterial.bounciness = 0.8f;
+            rb.sharedMaterial = rb.sharedMaterial;
+            // bc.bouncy = 1;
+            // print("bounce at jump "+ bc.bouncy);
+            // rb.sharedMaterial.bounciness = bc.bouncy;
+            // rb.sharedMaterial = rb.sharedMaterial;
         }
 
-        if (Input.GetKeyUp("space")) {
+        if (Input.GetKeyUp("space"))
+        {
             coyoteTimeCounter = 0; //resets counter, prevents further jumps
             // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
-            bc.bouncy = 1;
-            rb.sharedMaterial.bounciness = bc.bouncy;
-            rb.sharedMaterial = rb.sharedMaterial;
+            // bc.bouncy = 1;
+            // rb.sharedMaterial.bounciness = 0.8f;
+            // rb.sharedMaterial = rb.sharedMaterial;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift)) {
-            bc.bouncy = 0;
-            rb.sharedMaterial.bounciness = bc.bouncy;
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            // bc.bouncy = 0;
+            rb.sharedMaterial.bounciness = 0;
             rb.sharedMaterial = rb.sharedMaterial;
         }
+    }
+
+    public void setMaterialBounciness(float incomingBounciness)
+    {
+
+        rb.sharedMaterial.bounciness = incomingBounciness;
+        rb.sharedMaterial = rb.sharedMaterial;
     }
 
     // Don't know if OnGround is needed/used anywhere
-    public void OnGround(bool yn) {
+    public void OnGround(bool yn)
+    {
         isGrounded = yn;
+        Debug.Log("isGrounded from other script" + isGrounded);
     }
 
-    public void SetBounce(float springX, float springY) {
-           // rb.AddForceX(springX);
+    public void SetBounce(float springX, float springY)
+    {
+        // rb.AddForceX(springX);
 
         //rb.linearVelocityX += springX; // getting overriden by movement (?)
         rb.linearVelocityY += springY;
@@ -89,4 +132,5 @@ public class PlayerMove : MonoBehaviour {
     {
         useForce = force;
     }
+    //hello
 }
