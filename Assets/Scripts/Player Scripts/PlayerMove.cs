@@ -5,8 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
-{
+public class PlayerMove : MonoBehaviour {
     Rigidbody2D rb; //var for character controller on player
     public BouncingController bc;
 
@@ -28,13 +27,11 @@ public class PlayerMove : MonoBehaviour
 
     //public float maxV = 0;
 
-    void Start()
-    {
+    void Start() {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
+    void Update() {
         Move();
 
         // isGrounded = isTouchingGround;
@@ -49,88 +46,72 @@ public class PlayerMove : MonoBehaviour
         // isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0f); // , transform.localScale.y / 2 + 0.08f
         // Debug.Log(isGrounded);
     }
-    void Move()
-    {
+    void Move() {
         // SetVelocity (movement) versus AddForce (while grappling)
-        if (useForce)
-        {
+        if (useForce) {
             // Can use one or both axes! Horiz is most realistic for swing motion,
             // but vertical helps you do 360 loops ;)  powerup?
             rb.AddForceX(forceSpeed * Input.GetAxis("Horizontal"));
             //rb.AddForceY(forceSpeed * Input.GetAxis("Vertical"));
-        }
-        else
-        {
+        } else {
             // Only horiz axis (no vertical movement besides jumping)
             rb.linearVelocityX = velSpeed * Input.GetAxis("Horizontal");
         }
 
-        if (isGrounded == true)
-        { //detects if player is on ground
+        if (isGrounded == true) { //detects if player is on ground
             coyoteTimeCounter = coyoteTime; //resets counters to full
             jumpInputCounter = jumpInputTime;
-        }
-        else
-        {
+        } else {
             coyoteTimeCounter -= Time.deltaTime; //counts down timer
         }
 
         // Using GetKey so it can be held a bit longer for higher jumps
         // BUT with time limit (jumpBufferCounter)
-        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f)
-        {
+        if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f) {
             rb.linearVelocityY = jump;
             jumpInputCounter -= Time.deltaTime;
-             rb.sharedMaterial.bounciness = 0.8f;
+            rb.sharedMaterial.bounciness = 0.8f;
             rb.sharedMaterial = rb.sharedMaterial;
             // bc.bouncy = 1;
             // print("bounce at jump "+ bc.bouncy);
             // rb.sharedMaterial.bounciness = bc.bouncy;
             // rb.sharedMaterial = rb.sharedMaterial;
         }
-
-        if (Input.GetKeyUp("space"))
-        {
+        if (Input.GetKeyUp("space")) {
             coyoteTimeCounter = 0; //resets counter, prevents further jumps
             // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
             // bc.bouncy = 1;
             // rb.sharedMaterial.bounciness = 0.8f;
             // rb.sharedMaterial = rb.sharedMaterial;
         }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
             // bc.bouncy = 0;
             rb.sharedMaterial.bounciness = 0;
             rb.sharedMaterial = rb.sharedMaterial;
+            
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 3f;
         }
     }
 
-    public void setMaterialBounciness(float incomingBounciness)
-    {
-
+    public void setMaterialBounciness(float incomingBounciness) {
         rb.sharedMaterial.bounciness = incomingBounciness;
         rb.sharedMaterial = rb.sharedMaterial;
     }
-
     // Don't know if OnGround is needed/used anywhere
-    public void OnGround(bool yn)
-    {
+    public void OnGround(bool yn) {
         isGrounded = yn;
         Debug.Log("isGrounded from other script" + isGrounded);
+        rb.gravityScale = 1f;
     }
 
-    public void SetBounce(float springX, float springY)
-    {
+    public void SetBounce(float springX, float springY) {
         // rb.AddForceX(springX);
 
         //rb.linearVelocityX += springX; // getting overriden by movement (?)
         rb.linearVelocityY += springY;
     }
-    public void SetUseForce(bool force) // So can change move method while grappling
-                                        // grappler script calls this
-    {
-        useForce = force;
+    public void SetUseForce(bool force) { // So can change move method while grappling
+        useForce = force;                 // grappler script calls this
     }
-    //hello
 }

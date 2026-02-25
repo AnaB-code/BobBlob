@@ -3056,7 +3056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftLimit: -5
   rightLimit: 14
-  celingLimit: 20
+  ceilingLimit: 10
   floorLimit: 2.17
   Player: {fileID: 576299351}
   cam: {fileID: 1755483265}

@@ -5,12 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - Stick
-  - Shovel
   - Circle
   - Door
   - Grabbable
   - Box
+  - Secret
   layers:
   - Default
   - TransparentFX
