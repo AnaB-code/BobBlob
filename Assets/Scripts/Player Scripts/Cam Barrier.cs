@@ -6,7 +6,7 @@ public class CamBarrier : MonoBehaviour
 {
     public float leftLimit;
     public float rightLimit;
-    public float celingLimit;
+    public float ceilingLimit;
     public float floorLimit;
 
     public Transform Player;
@@ -38,9 +38,9 @@ public class CamBarrier : MonoBehaviour
         {
             move.y = floorLimit;
         }
-        if (move.y > celingLimit)
+        if (move.y > ceilingLimit)
         {
-            move.y = celingLimit;
+            move.y = ceilingLimit;
         }
 
         cam.position = move;
