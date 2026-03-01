@@ -8,10 +8,6 @@ public class movingPlatform : MonoBehaviour {
     
     public float speed;
     
-    void Start() {
-        
-    }
-
     void Update() {
         distanceToTarget = Vector2.Distance(transform.position, waypoints[waypointIndex]); // Distance To Target
         //Debug.Log(distanceToTarget);

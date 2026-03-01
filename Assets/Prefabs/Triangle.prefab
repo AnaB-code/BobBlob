@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 090caefad59469241b03809a513a98c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 3
   pointA: {fileID: 0}
   pointB: {fileID: 0}
   player: {fileID: 0}
-  visionRange: 5
-  visionAngle: 360
+  visionRange: 10
+  visionAngle: 90
