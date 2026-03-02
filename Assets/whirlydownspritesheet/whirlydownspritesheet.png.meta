@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 632e3818c4cb8854a8f0364f3cb3557d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7933877346349193918
+    second: whirlydownspritesheet_0
+  - first:
+      213: -951939767472387871
+    second: whirlydownspritesheet_1
+  - first:
+      213: -7062784709794013282
+    second: whirlydownspritesheet_2
+  - first:
+      213: -6072733923186018085
+    second: whirlydownspritesheet_3
+  - first:
+      213: 1094169537348622244
+    second: whirlydownspritesheet_4
+  - first:
+      213: -8396346787992791275
+    second: whirlydownspritesheet_5
+  - first:
+      213: -197812317844877614
+    second: whirlydownspritesheet_6
+  - first:
+      213: 6164567574448645710
+    second: whirlydownspritesheet_7
+  - first:
+      213: 5254840608383631232
+    second: whirlydownspritesheet_8
+  - first:
+      213: -6704308561612880907
+    second: whirlydownspritesheet_9
+  - first:
+      213: -8689835677276020341
+    second: whirlydownspritesheet_10
+  - first:
+      213: -5754352794875051179
+    second: whirlydownspritesheet_11
+  - first:
+      213: -3893360792320724680
+    second: whirlydownspritesheet_12
+  - first:
+      213: -7737864065181759939
+    second: whirlydownspritesheet_13
+  - first:
+      213: -4224458099929321194
+    second: whirlydownspritesheet_14
+  - first:
+      213: -8336113250180693111
+    second: whirlydownspritesheet_15
+  - first:
+      213: -5303648077824608183
+    second: whirlydownspritesheet_16
+  - first:
+      213: -6078808217520311149
+    second: whirlydownspritesheet_17
+  - first:
+      213: -2834102650461938318
+    second: whirlydownspritesheet_18
+  - first:
+      213: 4858710008350748399
+    second: whirlydownspritesheet_19
+  - first:
+      213: -423123019653413569
+    second: whirlydownspritesheet_20
+  - first:
+      213: -8074896119609500203
+    second: whirlydownspritesheet_21
+  - first:
+      213: -6154803749339981622
+    second: whirlydownspritesheet_22
+  - first:
+      213: 1439108943307826555
+    second: whirlydownspritesheet_23
+  - first:
+      213: -4537732678074897562
+    second: whirlydownspritesheet_24
+  - first:
+      213: -7515813221757325430
+    second: whirlydownspritesheet_25
+  - first:
+      213: -7960345935251995608
+    second: whirlydownspritesheet_26
+  - first:
+      213: -2186210936017576747
+    second: whirlydownspritesheet_27
+  - first:
+      213: -4749233216230496881
+    second: whirlydownspritesheet_28
+  - first:
+      213: -6822076605651924323
+    second: whirlydownspritesheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: whirlydownspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1700
+        width: 209
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba99a8396bca1e60800000000000000
+      internalID: 7933877346349193918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1700
+        width: 208
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e88d3833d70ac2f0800000000000000
+      internalID: -951939767472387871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1700
+        width: 209
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fdaa70ab2fbfd90800000000000000
+      internalID: -7062784709794013282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1701
+        width: 208
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8780deba059bba0800000000000000
+      internalID: -6072733923186018085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 1701
+        width: 212
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7d7b5a5654f2f00800000000000000
+      internalID: 1094169537348622244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1702
+        width: 229
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51792b2051f2a7b80800000000000000
+      internalID: -8396346787992791275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 1702
+        width: 241
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dec8a6beba314df0800000000000000
+      internalID: -197812317844877614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 1703
+        width: 225
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4627e43c81fc8550800000000000000
+      internalID: 6164567574448645710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1190
+        width: 209
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ff00621b1fce840800000000000000
+      internalID: 5254840608383631232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1188
+        width: 208
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3447852e285f2a0800000000000000
+      internalID: -6704308561612880907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1187
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8162730e70876780800000000000000
+      internalID: -8689835677276020341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1186
+        width: 208
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5534235fe9e6420b0800000000000000
+      internalID: -5754352794875051179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1185
+        width: 209
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8313a4fbcf008f9c0800000000000000
+      internalID: -3893360792320724680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 1184
+        width: 209
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36c49231a59d9490800000000000000
+      internalID: -7737864065181759939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 1184
+        width: 210
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611f0318db5bf55c0800000000000000
+      internalID: -4224458099929321194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 1184
+        width: 209
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9838d836a2d205c80800000000000000
+      internalID: -8336113250180693111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 673
+        width: 208
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948b4935c28a566b0800000000000000
+      internalID: -5303648077824608183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 674
+        width: 208
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394f9f0122cb3aba0800000000000000
+      internalID: -6078808217520311149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 675
+        width: 207
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d1936b7ae3ba8d0800000000000000
+      internalID: -2834102650461938318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 676
+        width: 210
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feea162920b9d6340800000000000000
+      internalID: 4858710008350748399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 678
+        width: 225
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35844dfad3c02af0800000000000000
+      internalID: -423123019653413569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 679
+        width: 240
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddde7803c430ff80800000000000000
+      internalID: -8074896119609500203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 678
+        width: 226
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8195a799eb59aa0800000000000000
+      internalID: -6154803749339981622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 678
+        width: 210
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7563fe85fdb8f310800000000000000
+      internalID: 1439108943307826555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 165
+        width: 208
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66be9a5db2cb601c0800000000000000
+      internalID: -4537732678074897562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 164
+        width: 209
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f68fef1b772b790800000000000000
+      internalID: -7515813221757325430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 164
+        width: 208
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82484103c8b278190800000000000000
+      internalID: -7960345935251995608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 164
+        width: 209
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc199a9cb409a1e0800000000000000
+      internalID: -2186210936017576747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 164
+        width: 209
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8568176d85571eb0800000000000000
+      internalID: -4749233216230496881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whirlydownspritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 164
+        width: 209
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a4d99d87d1351a0800000000000000
+      internalID: -6822076605651924323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      whirlydownspritesheet_0: 7933877346349193918
+      whirlydownspritesheet_1: -951939767472387871
+      whirlydownspritesheet_10: -8689835677276020341
+      whirlydownspritesheet_11: -5754352794875051179
+      whirlydownspritesheet_12: -3893360792320724680
+      whirlydownspritesheet_13: -7737864065181759939
+      whirlydownspritesheet_14: -4224458099929321194
+      whirlydownspritesheet_15: -8336113250180693111
+      whirlydownspritesheet_16: -5303648077824608183
+      whirlydownspritesheet_17: -6078808217520311149
+      whirlydownspritesheet_18: -2834102650461938318
+      whirlydownspritesheet_19: 4858710008350748399
+      whirlydownspritesheet_2: -7062784709794013282
+      whirlydownspritesheet_20: -423123019653413569
+      whirlydownspritesheet_21: -8074896119609500203
+      whirlydownspritesheet_22: -6154803749339981622
+      whirlydownspritesheet_23: 1439108943307826555
+      whirlydownspritesheet_24: -4537732678074897562
+      whirlydownspritesheet_25: -7515813221757325430
+      whirlydownspritesheet_26: -7960345935251995608
+      whirlydownspritesheet_27: -2186210936017576747
+      whirlydownspritesheet_28: -4749233216230496881
+      whirlydownspritesheet_29: -6822076605651924323
+      whirlydownspritesheet_3: -6072733923186018085
+      whirlydownspritesheet_4: 1094169537348622244
+      whirlydownspritesheet_5: -8396346787992791275
+      whirlydownspritesheet_6: -197812317844877614
+      whirlydownspritesheet_7: 6164567574448645710
+      whirlydownspritesheet_8: 5254840608383631232
+      whirlydownspritesheet_9: -6704308561612880907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
