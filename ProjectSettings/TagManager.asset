@@ -11,6 +11,7 @@ TagManager:
   - Door
   - Grabbable
   - Box
+  - Secret
   layers:
   - Default
   - TransparentFX
