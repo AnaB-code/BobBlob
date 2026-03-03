@@ -471,6 +471,28 @@ MonoBehaviour:
   player: {fileID: 1358530959}
   visionRange: 10
   visionAngle: 90
+--- !u!95 &72203170
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72203167}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d67314e0ed266894891f94530c1af445, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &89011626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,14 +2379,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530959}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 50678842}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1625254124}
     - target: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530950}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1403436591}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2237364332976652279, guid: 5fcf72ce2d3f01a4babb9f740293dba7, type: 3}
+      objectReference: {fileID: -1080447093591452701, guid: b763b9a3b05c9c444a305f7fe70ac557, type: 3}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Color.b
       value: 0.9570024
@@ -2435,11 +2477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.03
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.27
+      value: 2.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2451,6 +2493,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       insertIndex: -1
       addedObject: {fileID: 566417370}
+    - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 566417372}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1 &566417369 stripped
 GameObject:
@@ -2489,6 +2534,28 @@ MonoBehaviour:
   player: {fileID: 1358530959}
   visionRange: 10
   visionAngle: 90
+--- !u!95 &566417372
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566417369}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d67314e0ed266894891f94530c1af445, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &578575876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3181,7 +3248,7 @@ PrefabInstance:
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2237364332976652279, guid: 5fcf72ce2d3f01a4babb9f740293dba7, type: 3}
+      objectReference: {fileID: -1080447093591452701, guid: b763b9a3b05c9c444a305f7fe70ac557, type: 3}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Color.b
       value: 0.9570024
@@ -3252,11 +3319,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.03
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.27
+      value: 2.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3268,6 +3335,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       insertIndex: -1
       addedObject: {fileID: 694856117}
+    - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 694856119}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1 &694856116 stripped
 GameObject:
@@ -3306,6 +3376,28 @@ MonoBehaviour:
   player: {fileID: 1358530959}
   visionRange: 10
   visionAngle: 90
+--- !u!95 &694856119
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694856116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d67314e0ed266894891f94530c1af445, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &759095691
 GameObject:
   m_ObjectHideFlags: 0
@@ -5783,6 +5875,7 @@ GameObject:
   - component: {fileID: 1358530960}
   - component: {fileID: 1358530962}
   - component: {fileID: 1358530961}
+  - component: {fileID: 1358530963}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -5803,6 +5896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rt: {fileID: 1403436592}
+  ps: {fileID: 0}
 --- !u!114 &1358530952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5818,7 +5912,7 @@ MonoBehaviour:
   mainCamera: {fileID: 1524493267}
   lineRenderer: {fileID: 1358530953}
   distanceJoint: {fileID: 1358530954}
-  maxGrappleDistance: 10
+  grab: 
   grabbing: 0
 --- !u!120 &1358530953
 LineRenderer:
@@ -5985,7 +6079,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.47, y: 2.45}
+    oldSize: {x: 2.37, y: 2.54}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6084,7 +6178,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1413435375999421701, guid: 5494ef4edcbc45e42a895ed335acb981, type: 3}
+  m_Sprite: {fileID: -6174312971754722844, guid: eb871691fac2bc5419a6fc20383fce55, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6144,6 +6238,7 @@ MonoBehaviour:
   jumpSfx: {fileID: 8300000, guid: 5ed07641bf8ff3e41b4f04f7ad7186ae, type: 3}
   walkSfx: {fileID: 8300000, guid: ed74d6cc3ac5c14418aef94a8211a5f9, type: 3}
   splatSfx: {fileID: 8300000, guid: 5ed07641bf8ff3e41b4f04f7ad7186ae, type: 3}
+  deathSfx: {fileID: 0}
 --- !u!82 &1358530962
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6241,6 +6336,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1358530963
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358530950}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edd12b64d7d035d42b4470e1bfb84a29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1358988094
 GameObject:
   m_ObjectHideFlags: 0
@@ -7277,14 +7394,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530959}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1762457538}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1422591074}
     - target: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530950}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1403436591}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2237364332976652279, guid: 5fcf72ce2d3f01a4babb9f740293dba7, type: 3}
+      objectReference: {fileID: -1080447093591452701, guid: b763b9a3b05c9c444a305f7fe70ac557, type: 3}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Color.b
       value: 0.9570024
@@ -7355,11 +7492,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.03
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.27
+      value: 2.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7371,6 +7508,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1854796119}
+    - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1854796121}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1 &1559782204
 GameObject:
@@ -7595,14 +7735,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530959}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1490709457}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 2030932314}
     - target: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530950}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1403436591}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2237364332976652279, guid: 5fcf72ce2d3f01a4babb9f740293dba7, type: 3}
+      objectReference: {fileID: -1080447093591452701, guid: b763b9a3b05c9c444a305f7fe70ac557, type: 3}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Color.b
       value: 0.9570024
@@ -7673,11 +7833,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.03
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.27
+      value: 2.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7689,6 +7849,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1580251120}
+    - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1580251122}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1 &1580251119 stripped
 GameObject:
@@ -7727,6 +7890,28 @@ MonoBehaviour:
   player: {fileID: 1358530959}
   visionRange: 10
   visionAngle: 90
+--- !u!95 &1580251122
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580251119}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d67314e0ed266894891f94530c1af445, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1583396646
 GameObject:
   m_ObjectHideFlags: 0
@@ -7869,14 +8054,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530959}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1900495929}
+    - target: {fileID: 1307660443693446070, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 402847031}
     - target: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1358530950}
+    - target: {fileID: 5558091836333608415, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1403436591}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2237364332976652279, guid: 5fcf72ce2d3f01a4babb9f740293dba7, type: 3}
+      objectReference: {fileID: -1080447093591452701, guid: b763b9a3b05c9c444a305f7fe70ac557, type: 3}
     - target: {fileID: 6903040663249908442, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_Color.b
       value: 0.9570024
@@ -7947,11 +8152,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.03
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8518848403847850946, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.27
+      value: 2.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7963,6 +8168,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       insertIndex: -1
       addedObject: {fileID: 72203168}
+    - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 72203170}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1 &1625254123
 GameObject:
@@ -8811,7 +9019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftLimit: -40
   rightLimit: 40
-  celingLimit: 20
+  ceilingLimit: 0
   floorLimit: -40
   Player: {fileID: 1358530959}
   cam: {fileID: 1823714775}
@@ -8869,6 +9077,28 @@ MonoBehaviour:
   player: {fileID: 1358530959}
   visionRange: 10
   visionAngle: 90
+--- !u!95 &1854796121
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854796118}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d67314e0ed266894891f94530c1af445, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1876638172
 GameObject:
   m_ObjectHideFlags: 0

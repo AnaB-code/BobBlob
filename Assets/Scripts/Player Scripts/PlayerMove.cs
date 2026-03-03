@@ -1,5 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+//using System.Diagnostics;
+//using System.Numerics;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
@@ -20,7 +23,7 @@ public class PlayerMove : MonoBehaviour {
     [Min(0f)] public float jumpInputTime = 0.2f; // how long you can hold jump key to increase jump height
     private float jumpInputCounter; //jump buffer window counter
 
-    public bool isGrounded = true; //bool for weather player is on the ground or not
+    public bool isGrounded = false; //bool for weather player is on the ground or not
 
     //public float maxV = 0;
 
@@ -30,8 +33,19 @@ public class PlayerMove : MonoBehaviour {
 
     void Update() {
         Move();
+
+        // isGrounded = isTouchingGround;
+        // if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        // {
+        //     rb.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+        // }
     }
 
+    void FixedUpdate()
+    {
+        // isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0f); // , transform.localScale.y / 2 + 0.08f
+        // Debug.Log(isGrounded);
+    }
     void Move() {
         // SetVelocity (movement) versus AddForce (while grappling)
         if (useForce) {
@@ -56,37 +70,48 @@ public class PlayerMove : MonoBehaviour {
         if (Input.GetKeyDown("space") && coyoteTimeCounter > 0f && jumpInputCounter > 0f) {
             rb.linearVelocityY = jump;
             jumpInputCounter -= Time.deltaTime;
+            rb.sharedMaterial.bounciness = 0.8f;
+            rb.sharedMaterial = rb.sharedMaterial;
+            // bc.bouncy = 1;
+            // print("bounce at jump "+ bc.bouncy);
+            // rb.sharedMaterial.bounciness = bc.bouncy;
+            // rb.sharedMaterial = rb.sharedMaterial;
         }
-
         if (Input.GetKeyUp("space")) {
             coyoteTimeCounter = 0; //resets counter, prevents further jumps
             // don't need to reset jumpInputCounter (coyoteTimeCounter will prevent jumping)
-            bc.bouncy = 1;
-            rb.sharedMaterial.bounciness = bc.bouncy;
-            rb.sharedMaterial = rb.sharedMaterial;
+            // bc.bouncy = 1;
+            // rb.sharedMaterial.bounciness = 0.8f;
+            // rb.sharedMaterial = rb.sharedMaterial;
         }
-
         if (Input.GetKeyDown(KeyCode.LeftShift)) {
-            bc.bouncy = 0;
-            rb.sharedMaterial.bounciness = bc.bouncy;
+            // bc.bouncy = 0;
+            rb.sharedMaterial.bounciness = 0;
             rb.sharedMaterial = rb.sharedMaterial;
+            
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 3f;
         }
     }
 
+    public void setMaterialBounciness(float incomingBounciness) {
+        rb.sharedMaterial.bounciness = incomingBounciness;
+        rb.sharedMaterial = rb.sharedMaterial;
+    }
     // Don't know if OnGround is needed/used anywhere
     public void OnGround(bool yn) {
         isGrounded = yn;
+        Debug.Log("isGrounded from other script" + isGrounded);
+        rb.gravityScale = 1f;
     }
 
     public void SetBounce(float springX, float springY) {
-           // rb.AddForceX(springX);
+        // rb.AddForceX(springX);
 
         //rb.linearVelocityX += springX; // getting overriden by movement (?)
         rb.linearVelocityY += springY;
     }
-    public void SetUseForce(bool force) // So can change move method while grappling
-                                        // grappler script calls this
-    {
-        useForce = force;
+    public void SetUseForce(bool force) { // So can change move method while grappling
+        useForce = force;                 // grappler script calls this
     }
 }
