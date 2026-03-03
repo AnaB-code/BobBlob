@@ -1230,6 +1230,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: rt
+      value: 
+      objectReference: {fileID: 2054836592}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.45
@@ -1278,6 +1282,10 @@ PrefabInstance:
       propertyPath: m_Distance
       value: 7.536604
       objectReference: {fileID: 0}
+    - target: {fileID: 2470548903885628086, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 952260771}
     - target: {fileID: 2756253343139631664, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: rt
       value: 
@@ -1446,7 +1454,7 @@ GameObject:
   - component: {fileID: 295676773}
   - component: {fileID: 295676772}
   m_Layer: 0
-  m_Name: CamCenter (1)
+  m_Name: CamCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4385,7 +4393,7 @@ GameObject:
   - component: {fileID: 952260769}
   - component: {fileID: 952260768}
   m_Layer: 0
-  m_Name: Main Camera1
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
