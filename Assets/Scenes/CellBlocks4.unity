@@ -183,9 +183,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4559242019052335908, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Size.x
+      value: 2.51456
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559242019052335908, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Size.y
+      value: 2.33638
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559242019052335908, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0057
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559242019052335908, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1082
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559242019052335908, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 7315476977087932773, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_Mass
       value: 2.1069624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846286036496844329, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846286036496844329, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846286036496844329, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0073
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846286036496844329, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846286036496844329, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
