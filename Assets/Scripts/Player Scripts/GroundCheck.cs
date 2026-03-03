@@ -4,8 +4,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-public class GroundCheck : MonoBehaviour
-{
+public class GroundCheck : MonoBehaviour {
     public PlayerMove pm;
     public BouncingController bc;
 
