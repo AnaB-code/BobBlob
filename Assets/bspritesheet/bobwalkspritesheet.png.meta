@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: eb871691fac2bc5419a6fc20383fce55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6174312971754722844
+    second: bobwalkspritesheet_0
+  - first:
+      213: 9131357226968275509
+    second: bobwalkspritesheet_1
+  - first:
+      213: 4778791296140966230
+    second: bobwalkspritesheet_2
+  - first:
+      213: 4741326084602108148
+    second: bobwalkspritesheet_3
+  - first:
+      213: 6462057096099590189
+    second: bobwalkspritesheet_4
+  - first:
+      213: 426314898444008645
+    second: bobwalkspritesheet_5
+  - first:
+      213: -794613165665889652
+    second: bobwalkspritesheet_6
+  - first:
+      213: -8775796174738206772
+    second: bobwalkspritesheet_7
+  - first:
+      213: 7387176806553326794
+    second: bobwalkspritesheet_8
+  - first:
+      213: -2733463560614777666
+    second: bobwalkspritesheet_9
+  - first:
+      213: 4186024038489940465
+    second: bobwalkspritesheet_10
+  - first:
+      213: 4828224435500004023
+    second: bobwalkspritesheet_11
+  - first:
+      213: -8305693738666899415
+    second: bobwalkspritesheet_12
+  - first:
+      213: 6873974188492375851
+    second: bobwalkspritesheet_13
+  - first:
+      213: 2348112803377385706
+    second: bobwalkspritesheet_14
+  - first:
+      213: 2152050822061056504
+    second: bobwalkspritesheet_15
+  - first:
+      213: -2667575061236832156
+    second: bobwalkspritesheet_16
+  - first:
+      213: 218797166786385795
+    second: bobwalkspritesheet_17
+  - first:
+      213: 5774965269993973221
+    second: bobwalkspritesheet_18
+  - first:
+      213: -1922275163073097012
+    second: bobwalkspritesheet_19
+  - first:
+      213: -5431929409103390901
+    second: bobwalkspritesheet_20
+  - first:
+      213: -7688729894980657112
+    second: bobwalkspritesheet_21
+  - first:
+      213: 1728970102145694354
+    second: bobwalkspritesheet_22
+  - first:
+      213: -799003325063424092
+    second: bobwalkspritesheet_23
+  - first:
+      213: 1739500586888844047
+    second: bobwalkspritesheet_24
+  - first:
+      213: 4860037472230434536
+    second: bobwalkspritesheet_25
+  - first:
+      213: -1744599313778986557
+    second: bobwalkspritesheet_26
+  - first:
+      213: -2062688385216956505
+    second: bobwalkspritesheet_27
+  - first:
+      213: -7280428813524810856
+    second: bobwalkspritesheet_28
+  - first:
+      213: 8345294701523747712
+    second: bobwalkspritesheet_29
+  - first:
+      213: -5310603642627715300
+    second: bobwalkspritesheet_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bobwalkspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1687
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9297aa01f605aa0800000000000000
+      internalID: -6174312971754722844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1687
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ad3a6940919be70800000000000000
+      internalID: 9131357226968275509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1687
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659f53e5d5da15240800000000000000
+      internalID: 4778791296140966230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1694
+        width: 244
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8900d04f29cc140800000000000000
+      internalID: 4741326084602108148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 1694
+        width: 247
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20fe4301b6dda950800000000000000
+      internalID: 6462057096099590189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 1694
+        width: 249
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc363434239ae500800000000000000
+      internalID: 426314898444008645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1686
+        width: 240
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d2ae2987f8f4f0800000000000000
+      internalID: -794613165665889652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1687
+        width: 240
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf4f7f00eb163680800000000000000
+      internalID: -8775796174738206772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1176
+        width: 239
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac49d97aa26848660800000000000000
+      internalID: 7387176806553326794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1177
+        width: 237
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebce417cf59c01ad0800000000000000
+      internalID: -2733463560614777666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1177
+        width: 237
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1607b3faeb71a30800000000000000
+      internalID: 4186024038489940465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1177
+        width: 237
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2b6d50b8c410340800000000000000
+      internalID: 4828224435500004023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1174
+        width: 230
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928c295dc8f3cbc80800000000000000
+      internalID: -8305693738666899415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 1174
+        width: 230
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27ca44ca13456f50800000000000000
+      internalID: 6873974188492375851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 1174
+        width: 230
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae01bd1672c269020800000000000000
+      internalID: 2348112803377385706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 1175
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1698312de9ddd10800000000000000
+      internalID: 2152050822061056504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 663
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a94f7d9edafad0800000000000000
+      internalID: -2667575061236832156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 663
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3871a2c2dd2590300800000000000000
+      internalID: 218797166786385795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 663
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e56534e05cc42050800000000000000
+      internalID: 5774965269993973221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 663
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2d8708ce4b255e0800000000000000
+      internalID: -1922275163073097012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 663
+        width: 237
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4715656bf8ed94b0800000000000000
+      internalID: -5431929409103390901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 670
+        width: 244
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82060cba5e42c4590800000000000000
+      internalID: -7688729894980657112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 670
+        width: 246
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a3aadb5298ef710800000000000000
+      internalID: 1728970102145694354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 670
+        width: 247
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a71d3b85be59e4f0800000000000000
+      internalID: -799003325063424092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 150
+        width: 240
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03d7184192f32810800000000000000
+      internalID: 1739500586888844047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 151
+        width: 240
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6e167d452527340800000000000000
+      internalID: 4860037472230434536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 152
+        width: 239
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c130dada20f9c7e0800000000000000
+      internalID: -1744599313778986557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 153
+        width: 237
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7b1dc97dbdf53e0800000000000000
+      internalID: -2062688385216956505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 153
+        width: 237
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893c5554198b6fa90800000000000000
+      internalID: -7280428813524810856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 153
+        width: 237
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083c546d05170d370800000000000000
+      internalID: 8345294701523747712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobwalkspritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 150
+        width: 230
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f8742bf12fc46b0800000000000000
+      internalID: -5310603642627715300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bobwalkspritesheet_0: -6174312971754722844
+      bobwalkspritesheet_1: 9131357226968275509
+      bobwalkspritesheet_10: 4186024038489940465
+      bobwalkspritesheet_11: 4828224435500004023
+      bobwalkspritesheet_12: -8305693738666899415
+      bobwalkspritesheet_13: 6873974188492375851
+      bobwalkspritesheet_14: 2348112803377385706
+      bobwalkspritesheet_15: 2152050822061056504
+      bobwalkspritesheet_16: -2667575061236832156
+      bobwalkspritesheet_17: 218797166786385795
+      bobwalkspritesheet_18: 5774965269993973221
+      bobwalkspritesheet_19: -1922275163073097012
+      bobwalkspritesheet_2: 4778791296140966230
+      bobwalkspritesheet_20: -5431929409103390901
+      bobwalkspritesheet_21: -7688729894980657112
+      bobwalkspritesheet_22: 1728970102145694354
+      bobwalkspritesheet_23: -799003325063424092
+      bobwalkspritesheet_24: 1739500586888844047
+      bobwalkspritesheet_25: 4860037472230434536
+      bobwalkspritesheet_26: -1744599313778986557
+      bobwalkspritesheet_27: -2062688385216956505
+      bobwalkspritesheet_28: -7280428813524810856
+      bobwalkspritesheet_29: 8345294701523747712
+      bobwalkspritesheet_3: 4741326084602108148
+      bobwalkspritesheet_30: -5310603642627715300
+      bobwalkspritesheet_4: 6462057096099590189
+      bobwalkspritesheet_5: 426314898444008645
+      bobwalkspritesheet_6: -794613165665889652
+      bobwalkspritesheet_7: -8775796174738206772
+      bobwalkspritesheet_8: 7387176806553326794
+      bobwalkspritesheet_9: -2733463560614777666
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
