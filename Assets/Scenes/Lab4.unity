@@ -5211,7 +5211,7 @@ BoxCollider2D:
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.020574093, y: 8.34}
+  m_Offset: {x: 0.020574093, y: 30.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5221,7 +5221,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.8559628, y: 19.86}
+  m_Size: {x: 2.8559628, y: 63.57}
   m_EdgeRadius: 0
 --- !u!249 &620707341
 AreaEffector2D:
@@ -7597,7 +7597,7 @@ GameObject:
   - component: {fileID: 926839763}
   - component: {fileID: 926839762}
   - component: {fileID: 926839761}
-  - component: {fileID: 926839760}
+  - component: {fileID: 926839764}
   m_Layer: 6
   m_Name: Pressure Button 2 (2)
   m_TagString: Ground
@@ -7605,19 +7605,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &926839760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926839759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a945eb2c07aa5284c97e5928df2e7223, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myDoorOpen: {fileID: 1926775198}
 --- !u!61 &926839761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7734,6 +7721,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926839764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926839759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c036472c53de854b8eb5f81afd0b701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFloorOpen: {fileID: 1926775198}
 --- !u!1001 &938529562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7752,11 +7752,11 @@ PrefabInstance:
       objectReference: {fileID: 1399442303}
     - target: {fileID: 5192094275998223311, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.11
+      value: -30.2
       objectReference: {fileID: 0}
     - target: {fileID: 5192094275998223311, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.69
+      value: 46.6
       objectReference: {fileID: 0}
     - target: {fileID: 5192094275998223311, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9772,7 +9772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f505a4ab259f5545836500af44ff28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Lab5
+  scene: Hallway3
 --- !u!61 &1257083886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11075,11 +11075,11 @@ PrefabInstance:
       objectReference: {fileID: 1578120831}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -73.51
+      value: -73.9
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 49.94
+      value: 50.82
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11119,7 +11119,7 @@ PrefabInstance:
       objectReference: {fileID: 1379630089}
     - target: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_Distance
-      value: 43.026505
+      value: 7.0954137
       objectReference: {fileID: 0}
     - target: {fileID: 2470548903885628086, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: mainCamera
@@ -11636,7 +11636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftLimit: -59.4
   rightLimit: 2.6
-  celingLimit: 52
+  ceilingLimit: 0
   floorLimit: -2.6
   Player: {fileID: 1399442296}
   cam: {fileID: 1472383923}
@@ -15304,7 +15304,7 @@ Transform:
   m_GameObject: {fileID: 1926775193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.9473, y: -9.9884, z: 0}
+  m_LocalPosition: {x: -2.9473, y: -9.9884, z: -0.19}
   m_LocalScale: {x: 0.14504, y: 0.32439914, z: 0.14}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15319,7 +15319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1926775193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae421ea9229c564880f5f1586632570, type: 3}
+  m_Script: {fileID: 11500000, guid: 063fee51dfedc3941acc846d3c2e8960, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
@@ -17095,10 +17095,10 @@ SceneRoots:
   - {fileID: 938529562}
   - {fileID: 1578120832}
   - {fileID: 1472383923}
-  - {fileID: 1257083888}
   - {fileID: 1869477723}
   - {fileID: 1399442295}
   - {fileID: 1926775197}
+  - {fileID: 1257083888}
   - {fileID: 1882280763}
   - {fileID: 19235704}
   - {fileID: 195225690}
