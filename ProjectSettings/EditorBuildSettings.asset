@@ -9,7 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 474b0822a375cee40a382bf63bcd6c1e
   - enabled: 1
-    path: Assets/Scenes/CellBlocks 1.unity
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 8d7d070f95541624a9768674edab7110
+  - enabled: 1
+    path: Assets/Scenes/CellBlocks1.unity
     guid: 2f5ce847d833fe64b9b1acbe9800dd06
   - enabled: 1
     path: Assets/Scenes/CellBlocks2.unity
@@ -21,22 +24,49 @@ EditorBuildSettings:
     path: Assets/Scenes/CellBlocks4.unity
     guid: ed915c823b5356f46818e5a0446fcded
   - enabled: 1
-    path: Assets/Scenes/end.unity
-    guid: e1a0a912e6e9a2c4399ec6f4b1130598
-  - enabled: 1
     path: Assets/Scenes/Hallway1.unity
     guid: 1a4aac20c8aa05848a4fc7468433d8dd
-  - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 8d7d070f95541624a9768674edab7110
   - enabled: 1
     path: Assets/Scenes/Hallway2.unity
     guid: 2b1b949294dbdea4987cc22a6fe36298
   - enabled: 1
     path: Assets/Scenes/Hallway3.unity
     guid: 85e2959c941e2dc4c9058e1fb180ccb3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Hallway4.unity
     guid: a3ea96821cef25b4aacfba442a2bd6df
+  - enabled: 1
+    path: Assets/Scenes/Storage1.unity
+    guid: 9a129a790cdc2774285df2610dd8ab41
+  - enabled: 1
+    path: Assets/Scenes/Storage2.unity
+    guid: cc059694304ecb54c881696527e83cd6
+  - enabled: 1
+    path: Assets/Scenes/Storage3.unity
+    guid: 8151ab0b0e82b8b41aea093f43525b83
+  - enabled: 1
+    path: Assets/Scenes/Storage4.unity
+    guid: 74070361b4783bb4686ab76da2904fff
+  - enabled: 1
+    path: Assets/Scenes/Storage5.unity
+    guid: 335abd8a2e7416a4b8bd8508bed400fe
+  - enabled: 1
+    path: Assets/Scenes/Lab1.unity
+    guid: a424154130a9889459ce91aef97a2beb
+  - enabled: 1
+    path: Assets/Scenes/Lab2.unity
+    guid: c6a09d44c5b02464884d1d09cb5258a3
+  - enabled: 1
+    path: Assets/Scenes/Lab3.unity
+    guid: 22fbcce3c25ed11408700a8adfa1fd26
+  - enabled: 1
+    path: Assets/Scenes/Lab4.unity
+    guid: 11d5ac537fa46b246b731fd828724e7f
+  - enabled: 1
+    path: Assets/Scenes/Lab5.unity
+    guid: 200ce0c06ef07a148861a69a2284d968
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: e1a0a912e6e9a2c4399ec6f4b1130598
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
