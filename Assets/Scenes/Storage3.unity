@@ -1780,6 +1780,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771470b5e18709d49b24409c0cb11c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &261547181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+  m_PrefabInstance: {fileID: 261547176}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &271595521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,7 +2115,7 @@ MonoBehaviour:
   rightLimit: 27.42
   ceilingLimit: 0
   floorLimit: -141.5
-  Player: {fileID: 0}
+  Player: {fileID: 261547181}
   cam: {fileID: 295676773}
   move: {x: 0, y: 2.17, z: 0}
 --- !u!4 &295676773
