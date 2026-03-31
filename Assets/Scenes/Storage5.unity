@@ -2023,6 +2023,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1276090870284789534, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2093607152}
+    - target: {fileID: 1276090870284789534, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
+      propertyPath: distanceJoint
+      value: 
+      objectReference: {fileID: 1566421473}
     - target: {fileID: 5192094275998223311, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.617194
@@ -25958,6 +25966,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1279937058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!232 &1566421473 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+  m_PrefabInstance: {fileID: 2093607151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1574717154
 GameObject:
   m_ObjectHideFlags: 0
@@ -27980,6 +27993,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1276090870284789534, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2093607152}
+    - target: {fileID: 1276090870284789534, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
+      propertyPath: distanceJoint
+      value: 
+      objectReference: {fileID: 2093607162}
     - target: {fileID: 5192094275998223311, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.77497
@@ -31630,6 +31651,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771470b5e18709d49b24409c0cb11c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!232 &2093607162 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+  m_PrefabInstance: {fileID: 2093607151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2111950514
 GameObject:
   m_ObjectHideFlags: 0

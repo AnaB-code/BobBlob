@@ -1842,10 +1842,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d74c2a5c18b41b43bf1441ce44054a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftLimit: -25
-  rightLimit: 20
-  ceilingLimit: 37
-  floorLimit: -7
+  leftLimit: -1000
+  rightLimit: 1000
+  ceilingLimit: 1000
+  floorLimit: -1000
   Player: {fileID: 1737333314}
   cam: {fileID: 339214151}
   move: {x: 0, y: 2.17, z: 0}
@@ -5013,11 +5013,11 @@ PrefabInstance:
     - target: {fileID: 1276090870284789534, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1737333312}
     - target: {fileID: 1276090870284789534, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: distanceJoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1737333322}
     - target: {fileID: 5192094275998223311, guid: 9cee61351be13c144b1294533a83fe46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.3777914
@@ -7614,9 +7614,10 @@ GameObject:
   - component: {fileID: 1634068469}
   - component: {fileID: 1634068468}
   - component: {fileID: 1634068467}
+  - component: {fileID: 1634068470}
   m_Layer: 6
   m_Name: Ground (67)
-  m_TagString: Ground
+  m_TagString: Grabbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7737,6 +7738,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1634068470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634068466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f89a02338b7f8a4fbf5f6bc4bc3174d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 1737333316}
 --- !u!1 &1638649077
 GameObject:
   m_ObjectHideFlags: 0
@@ -8392,6 +8406,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771470b5e18709d49b24409c0cb11c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!232 &1737333322 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+  m_PrefabInstance: {fileID: 1737333311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1780029199
 GameObject:
   m_ObjectHideFlags: 0

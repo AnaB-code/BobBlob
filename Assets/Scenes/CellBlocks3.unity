@@ -1648,7 +1648,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2009589431}
+      addedObject: {fileID: 680415390}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
 --- !u!1 &492558708
 GameObject:
@@ -2113,7 +2113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  maxCount: 6
+  maxCount: 4
 --- !u!61 &589249431
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2230,6 +2230,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &680415389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
+  m_PrefabInstance: {fileID: 469038568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &680415390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680415389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b7e76ddcaee9f4994fd7e6f05e2311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
+  fireRate: 2
+  offset: {x: -1, y: 0}
 --- !u!1 &691993454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,7 +4572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7973671337739552309, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.87
+      value: -2.13
       objectReference: {fileID: 0}
     - target: {fileID: 7973671337739552309, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6375,33 +6395,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2009589430 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4672704067959873914, guid: 3dd8fea9e8b4f4440b59a7e48f930988, type: 3}
-  m_PrefabInstance: {fileID: 469038568}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &2009589431
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2009589430}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d67314e0ed266894891f94530c1af445, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2082121726
 GameObject:
   m_ObjectHideFlags: 0
@@ -6843,9 +6836,6 @@ SceneRoots:
   - {fileID: 728149557}
   - {fileID: 589249433}
   - {fileID: 1959646132}
-  - {fileID: 822109133}
-  - {fileID: 280377123}
-  - {fileID: 492558712}
   - {fileID: 960464619}
   - {fileID: 1608501509}
   - {fileID: 1330725686}
@@ -6874,3 +6864,4 @@ SceneRoots:
   - {fileID: 2086629924}
   - {fileID: 1513092906}
   - {fileID: 2140580901}
+  - {fileID: 822109133}

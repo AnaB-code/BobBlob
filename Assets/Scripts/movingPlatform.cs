@@ -9,8 +9,7 @@ public class movingPlatform : MonoBehaviour {
     public float speed;
     
     void Update() {
-        distanceToTarget = Vector2.Distance(transform.position, waypoints[waypointIndex]); // Distance To Target
-        //Debug.Log(distanceToTarget);
+        distanceToTarget = Vector2.Distance(transform.position, waypoints[waypointIndex]);
         
         if(distanceToTarget < .1) { // If close to target, cycle to next waypoint
             waypointIndex++;
