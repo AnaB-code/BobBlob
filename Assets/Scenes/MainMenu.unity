@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 193767580}
   - component: {fileID: 193767579}
   m_Layer: 5
-  m_Name: PlayButton (1)
+  m_Name: LvlSelectButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
