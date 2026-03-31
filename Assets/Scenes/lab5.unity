@@ -5833,10 +5833,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d74c2a5c18b41b43bf1441ce44054a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftLimit: -42
-  rightLimit: 25
-  ceilingLimit: 21
-  floorLimit: -11
+  leftLimit: -1000
+  rightLimit: 1000
+  ceilingLimit: 1000
+  floorLimit: -1000
   Player: {fileID: 929054021}
   cam: {fileID: 1074901387}
   move: {x: 0, y: 2.17, z: 0}
@@ -10118,9 +10118,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1970747686}
-  - component: {fileID: 1970747685}
   - component: {fileID: 1970747684}
   - component: {fileID: 1970747683}
+  - component: {fileID: 1970747687}
   m_Layer: 6
   m_Name: Pressure Button 2 (2)
   m_TagString: Ground
@@ -10175,19 +10175,34 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.005844116, y: 0.05844021}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 2.56, y: 1.3}
+    newSize: {x: 2.56, y: 1.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.7831001, y: 1.1168804}
   m_EdgeRadius: 0
---- !u!212 &1970747685
+--- !u!4 &1970747686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970747682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.71, y: 13.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1970747687
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10231,32 +10246,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.11573401, g: 0.040775973, b: 0.93962264, a: 1}
+  m_Sprite: {fileID: 2530564911472380330, guid: 6aa3fde077c9735418a01e2057a28832, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.56, y: 1.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1970747686
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970747682}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.71, y: 13.7, z: 0}
-  m_LocalScale: {x: 1.9813733, y: 0.54108375, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991057127
 GameObject:
   m_ObjectHideFlags: 0
