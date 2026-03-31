@@ -4914,10 +4914,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d74c2a5c18b41b43bf1441ce44054a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftLimit: -15
-  rightLimit: 15
-  celingLimit: 100
-  floorLimit: -100
+  leftLimit: -11
+  rightLimit: 11
+  ceilingLimit: 24.2
+  floorLimit: -6.21
   Player: {fileID: 1271519955}
   cam: {fileID: 1475256906}
   move: {x: 0, y: 2.17, z: 0}

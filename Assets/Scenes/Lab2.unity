@@ -9105,10 +9105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d74c2a5c18b41b43bf1441ce44054a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftLimit: -22
+  leftLimit: -20.6
   rightLimit: -1
-  ceilingLimit: 0
-  floorLimit: 0.3
+  ceilingLimit: 19.3
+  floorLimit: -0.46
   Player: {fileID: 788020040}
   cam: {fileID: 1878378546}
   move: {x: 0, y: 2.17, z: 0}
