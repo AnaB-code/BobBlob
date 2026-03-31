@@ -1842,10 +1842,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d74c2a5c18b41b43bf1441ce44054a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftLimit: -25
-  rightLimit: 20
-  ceilingLimit: 37
-  floorLimit: -7
+  leftLimit: -1000
+  rightLimit: 1000
+  ceilingLimit: 1000
+  floorLimit: -1000
   Player: {fileID: 1737333314}
   cam: {fileID: 339214151}
   move: {x: 0, y: 2.17, z: 0}
