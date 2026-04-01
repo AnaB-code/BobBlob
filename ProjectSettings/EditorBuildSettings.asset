@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Lab4.unity
     guid: 11d5ac537fa46b246b731fd828724e7f
   - enabled: 1
-    path: Assets/Scenes/lab5.unity
+    path: Assets/Scenes/Lab5.unity
     guid: 200ce0c06ef07a148861a69a2284d968
   - enabled: 1
     path: Assets/Scenes/Hallway2.unity
@@ -53,9 +53,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Storage2.unity
     guid: cc059694304ecb54c881696527e83cd6
-  - enabled: 1
-    path: Assets/Scenes/Storage3.unity
-    guid: 8151ab0b0e82b8b41aea093f43525b83
   - enabled: 1
     path: Assets/Scenes/Storage4.unity
     guid: 74070361b4783bb4686ab76da2904fff
