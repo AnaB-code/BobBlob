@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: de8253e89e1e162459b37de953b7644c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1244296600926901281
+    second: buttondownspritesheet_0
+  - first:
+      213: 5299989236707076671
+    second: buttondownspritesheet_1
+  - first:
+      213: 5670092093847405347
+    second: buttondownspritesheet_2
+  - first:
+      213: 7022062225440019370
+    second: buttondownspritesheet_3
+  - first:
+      213: 2695214186987974274
+    second: buttondownspritesheet_4
+  - first:
+      213: -2988022247775863431
+    second: buttondownspritesheet_5
+  - first:
+      213: -4709816384452365192
+    second: buttondownspritesheet_6
+  - first:
+      213: 1743100398007979162
+    second: buttondownspritesheet_7
+  - first:
+      213: -5621596406616744659
+    second: buttondownspritesheet_8
+  - first:
+      213: 7207907473580716097
+    second: buttondownspritesheet_9
+  - first:
+      213: 24060855991828105
+    second: buttondownspritesheet_10
+  - first:
+      213: -7330598310118614312
+    second: buttondownspritesheet_11
+  - first:
+      213: 1082684662495602561
+    second: buttondownspritesheet_12
+  - first:
+      213: -2195624805065957741
+    second: buttondownspritesheet_13
+  - first:
+      213: 6014469681620058807
+    second: buttondownspritesheet_14
+  - first:
+      213: 6261404714479318662
+    second: buttondownspritesheet_15
+  - first:
+      213: -393141425456742882
+    second: buttondownspritesheet_16
+  - first:
+      213: -2291714734940963914
+    second: buttondownspritesheet_17
+  - first:
+      213: 8895057855858560758
+    second: buttondownspritesheet_18
+  - first:
+      213: -8857389401165946735
+    second: buttondownspritesheet_19
+  - first:
+      213: -3120317264655194856
+    second: buttondownspritesheet_20
+  - first:
+      213: 5579371390018376030
+    second: buttondownspritesheet_21
+  - first:
+      213: 3182190434005526247
+    second: buttondownspritesheet_22
+  - first:
+      213: 5080543409186808659
+    second: buttondownspritesheet_23
+  - first:
+      213: -3012765299757580186
+    second: buttondownspritesheet_24
+  - first:
+      213: -2276437625216950846
+    second: buttondownspritesheet_25
+  - first:
+      213: 3947565044214168380
+    second: buttondownspritesheet_26
+  - first:
+      213: -3198383861320796730
+    second: buttondownspritesheet_27
+  - first:
+      213: 5869186005820500917
+    second: buttondownspritesheet_28
+  - first:
+      213: -8859468893418767237
+    second: buttondownspritesheet_29
+  - first:
+      213: -6244178670087590780
+    second: buttondownspritesheet_30
+  - first:
+      213: -691299001225365864
+    second: buttondownspritesheet_31
+  - first:
+      213: 2854030510460996971
+    second: buttondownspritesheet_32
+  - first:
+      213: -7211434718218422504
+    second: buttondownspritesheet_33
+  - first:
+      213: 8539378894974204520
+    second: buttondownspritesheet_34
+  - first:
+      213: -6945316942051597240
+    second: buttondownspritesheet_35
+  - first:
+      213: -1987371428558201251
+    second: buttondownspritesheet_36
+  - first:
+      213: 1192791297995557731
+    second: buttondownspritesheet_37
+  - first:
+      213: -3937343260251291989
+    second: buttondownspritesheet_38
+  - first:
+      213: -7285282355298049013
+    second: buttondownspritesheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buttondownspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdba68285de5bbee0800000000000000
+      internalID: -1244296600926901281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa15751285d8940800000000000000
+      internalID: 5299989236707076671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3238689c7b630be40800000000000000
+      internalID: 5670092093847405347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa39a0ab360637160800000000000000
+      internalID: 7022062225440019370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ee201f503576520800000000000000
+      internalID: 2695214186987974274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dfa5cc8996886d0800000000000000
+      internalID: -2988022247775863431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874f667b3fe53aeb0800000000000000
+      internalID: -4709816384452365192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c8b1f939cb03810800000000000000
+      internalID: 1743100398007979162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d1ff84ad31cf1b0800000000000000
+      internalID: -5621596406616744659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14079a878a1a70460800000000000000
+      internalID: 7207907473580716097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e7266983b755000800000000000000
+      internalID: 24060855991828105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da1d461dab744a90800000000000000
+      internalID: -7330598310118614312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18760d7d6f7760f00800000000000000
+      internalID: 1082684662495602561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ed10a6fd29781e0800000000000000
+      internalID: -2195624805065957741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 1727
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b202553f40b77350800000000000000
+      internalID: 6014469681620058807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 1730
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686fe79d96af4e650800000000000000
+      internalID: 6261404714479318662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ef82dd4f74b8af0800000000000000
+      internalID: -393141425456742882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbb05137913230e0800000000000000
+      internalID: -2291714734940963914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe4ffaedf7917b70800000000000000
+      internalID: 8895057855858560758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190a132a44b341580800000000000000
+      internalID: -8857389401165946735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81565bddaf762b4d0800000000000000
+      internalID: -3120317264655194856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51d50ce7b8ed6d40800000000000000
+      internalID: 5579371390018376030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6ab8af659692c20800000000000000
+      internalID: 3182190434005526247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35328821057b18640800000000000000
+      internalID: 5080543409186808659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66083541ce18036d0800000000000000
+      internalID: -3012765299757580186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd1c9b7a087860e0800000000000000
+      internalID: -2276437625216950846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1216
+        width: 256
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b722c1e7198c630800000000000000
+      internalID: 3947565044214168380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5b1aae2de0d93d0800000000000000
+      internalID: -3198383861320796730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbef957399837150800000000000000
+      internalID: 5869186005820500917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cb62d1bf7dc0580800000000000000
+      internalID: -8859468893418767237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 1215
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cab5725983859a0800000000000000
+      internalID: -6244178670087590780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 1218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896316698330866f0800000000000000
+      internalID: -691299001225365864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 703
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d8722c0ad8b9720800000000000000
+      internalID: 2854030510460996971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 706
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817fba3e456dbeb90800000000000000
+      internalID: -7211434718218422504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 704
+        width: 256
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ab7658cd7f18670800000000000000
+      internalID: 8539378894974204520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 706
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84423800a074d9f90800000000000000
+      internalID: -6945316942051597240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 703
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e170c17307b64e0800000000000000
+      internalID: -1987371428558201251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 706
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bc338ad55ad8010800000000000000
+      internalID: 1192791297995557731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 703
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae71fd6a2fbb59c0800000000000000
+      internalID: -3937343260251291989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttondownspritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 706
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04e9040c4a75ea90800000000000000
+      internalID: -7285282355298049013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buttondownspritesheet_0: -1244296600926901281
+      buttondownspritesheet_1: 5299989236707076671
+      buttondownspritesheet_10: 24060855991828105
+      buttondownspritesheet_11: -7330598310118614312
+      buttondownspritesheet_12: 1082684662495602561
+      buttondownspritesheet_13: -2195624805065957741
+      buttondownspritesheet_14: 6014469681620058807
+      buttondownspritesheet_15: 6261404714479318662
+      buttondownspritesheet_16: -393141425456742882
+      buttondownspritesheet_17: -2291714734940963914
+      buttondownspritesheet_18: 8895057855858560758
+      buttondownspritesheet_19: -8857389401165946735
+      buttondownspritesheet_2: 5670092093847405347
+      buttondownspritesheet_20: -3120317264655194856
+      buttondownspritesheet_21: 5579371390018376030
+      buttondownspritesheet_22: 3182190434005526247
+      buttondownspritesheet_23: 5080543409186808659
+      buttondownspritesheet_24: -3012765299757580186
+      buttondownspritesheet_25: -2276437625216950846
+      buttondownspritesheet_26: 3947565044214168380
+      buttondownspritesheet_27: -3198383861320796730
+      buttondownspritesheet_28: 5869186005820500917
+      buttondownspritesheet_29: -8859468893418767237
+      buttondownspritesheet_3: 7022062225440019370
+      buttondownspritesheet_30: -6244178670087590780
+      buttondownspritesheet_31: -691299001225365864
+      buttondownspritesheet_32: 2854030510460996971
+      buttondownspritesheet_33: -7211434718218422504
+      buttondownspritesheet_34: 8539378894974204520
+      buttondownspritesheet_35: -6945316942051597240
+      buttondownspritesheet_36: -1987371428558201251
+      buttondownspritesheet_37: 1192791297995557731
+      buttondownspritesheet_38: -3937343260251291989
+      buttondownspritesheet_39: -7285282355298049013
+      buttondownspritesheet_4: 2695214186987974274
+      buttondownspritesheet_5: -2988022247775863431
+      buttondownspritesheet_6: -4709816384452365192
+      buttondownspritesheet_7: 1743100398007979162
+      buttondownspritesheet_8: -5621596406616744659
+      buttondownspritesheet_9: 7207907473580716097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

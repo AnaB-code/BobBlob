@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3ff7a2203aeb407488784b8649d892ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6418699940573962887
+    second: buttonupspritesheet_0
+  - first:
+      213: -7152339267968373808
+    second: buttonupspritesheet_1
+  - first:
+      213: -185863586356686132
+    second: buttonupspritesheet_2
+  - first:
+      213: -5211186151084447667
+    second: buttonupspritesheet_3
+  - first:
+      213: 2819475980603199702
+    second: buttonupspritesheet_4
+  - first:
+      213: 5299842614801523932
+    second: buttonupspritesheet_5
+  - first:
+      213: -6918684377704166018
+    second: buttonupspritesheet_6
+  - first:
+      213: 5307258495601457868
+    second: buttonupspritesheet_7
+  - first:
+      213: 1369489760220334000
+    second: buttonupspritesheet_8
+  - first:
+      213: 7017553806511857501
+    second: buttonupspritesheet_9
+  - first:
+      213: 1287034417597254954
+    second: buttonupspritesheet_10
+  - first:
+      213: -2955094765693801294
+    second: buttonupspritesheet_11
+  - first:
+      213: -6363081198279550177
+    second: buttonupspritesheet_12
+  - first:
+      213: 964852470442852983
+    second: buttonupspritesheet_13
+  - first:
+      213: 250149125082145612
+    second: buttonupspritesheet_14
+  - first:
+      213: -2803935986263374129
+    second: buttonupspritesheet_15
+  - first:
+      213: 8774554440178156647
+    second: buttonupspritesheet_16
+  - first:
+      213: 8206342541702754155
+    second: buttonupspritesheet_17
+  - first:
+      213: -7141578770577986996
+    second: buttonupspritesheet_18
+  - first:
+      213: 1616312528260271926
+    second: buttonupspritesheet_19
+  - first:
+      213: -3325632148923949241
+    second: buttonupspritesheet_20
+  - first:
+      213: -8156165962138846518
+    second: buttonupspritesheet_21
+  - first:
+      213: 7648137913094611136
+    second: buttonupspritesheet_22
+  - first:
+      213: 467967328177610257
+    second: buttonupspritesheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buttonupspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1743
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7826bb5969dc31950800000000000000
+      internalID: 6418699940573962887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1765
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbeaab9459cdbc90800000000000000
+      internalID: -7152339267968373808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1743
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2978e8d0eab6df0800000000000000
+      internalID: -185863586356686132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1744
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d482d2e3ec52ea7b0800000000000000
+      internalID: -5211186151084447667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1744
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d09994577ac02720800000000000000
+      internalID: 2819475980603199702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 1744
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4e8b447c2dc8940800000000000000
+      internalID: 5299842614801523932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 1745
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d06e91735ebff90800000000000000
+      internalID: -6918684377704166018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1744
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccabf719b7b27a940800000000000000
+      internalID: 5307258495601457868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1228
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7c7795ea7610310800000000000000
+      internalID: 1369489760220334000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1228
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f5455a10c536160800000000000000
+      internalID: 7017553806511857501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1227
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d069adbf67cd110800000000000000
+      internalID: 1287034417597254954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1227
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc6435a7f46df6d0800000000000000
+      internalID: -2955094765693801294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1250
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b949bfc5bc1b7a0800000000000000
+      internalID: -6363081198279550177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 1227
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7728769b538d36d00800000000000000
+      internalID: 964852470442852983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 1228
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43656dcd45b87300800000000000000
+      internalID: 250149125082145612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1228
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc646dd831b6619d0800000000000000
+      internalID: -2803935986263374129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 712
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764452516ca75c970800000000000000
+      internalID: 8774554440178156647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 713
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f6e570019c2e170800000000000000
+      internalID: 8206342541702754155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 712
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a6a3422f304ec90800000000000000
+      internalID: -7141578770577986996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 712
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f87fc4eab4e6610800000000000000
+      internalID: 1616312528260271926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 712
+        width: 258
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fd4c53e2bf8d1d0800000000000000
+      internalID: -3325632148923949241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 711
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaf499454a7fce80800000000000000
+      internalID: -8156165962138846518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 711
+        width: 258
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0a33f09e4a32a60800000000000000
+      internalID: 7648137913094611136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonupspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 734
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ed38a3ecd8e7600800000000000000
+      internalID: 467967328177610257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buttonupspritesheet_0: 6418699940573962887
+      buttonupspritesheet_1: -7152339267968373808
+      buttonupspritesheet_10: 1287034417597254954
+      buttonupspritesheet_11: -2955094765693801294
+      buttonupspritesheet_12: -6363081198279550177
+      buttonupspritesheet_13: 964852470442852983
+      buttonupspritesheet_14: 250149125082145612
+      buttonupspritesheet_15: -2803935986263374129
+      buttonupspritesheet_16: 8774554440178156647
+      buttonupspritesheet_17: 8206342541702754155
+      buttonupspritesheet_18: -7141578770577986996
+      buttonupspritesheet_19: 1616312528260271926
+      buttonupspritesheet_2: -185863586356686132
+      buttonupspritesheet_20: -3325632148923949241
+      buttonupspritesheet_21: -8156165962138846518
+      buttonupspritesheet_22: 7648137913094611136
+      buttonupspritesheet_23: 467967328177610257
+      buttonupspritesheet_3: -5211186151084447667
+      buttonupspritesheet_4: 2819475980603199702
+      buttonupspritesheet_5: 5299842614801523932
+      buttonupspritesheet_6: -6918684377704166018
+      buttonupspritesheet_7: 5307258495601457868
+      buttonupspritesheet_8: 1369489760220334000
+      buttonupspritesheet_9: 7017553806511857501
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

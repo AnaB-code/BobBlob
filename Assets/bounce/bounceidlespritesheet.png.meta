@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: f3a602c50607dc046aae731b308939f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3776327829751391155
+    second: bounceidlespritesheet_0
+  - first:
+      213: 4874168664328649283
+    second: bounceidlespritesheet_1
+  - first:
+      213: 7494683177040874781
+    second: bounceidlespritesheet_2
+  - first:
+      213: -3350393331727633680
+    second: bounceidlespritesheet_3
+  - first:
+      213: 243847920968899706
+    second: bounceidlespritesheet_4
+  - first:
+      213: 1717889887681840816
+    second: bounceidlespritesheet_5
+  - first:
+      213: -6245657661375492729
+    second: bounceidlespritesheet_6
+  - first:
+      213: -4807913177391578745
+    second: bounceidlespritesheet_7
+  - first:
+      213: 6134260672422644139
+    second: bounceidlespritesheet_8
+  - first:
+      213: -308160334937172924
+    second: bounceidlespritesheet_9
+  - first:
+      213: 711218532753837607
+    second: bounceidlespritesheet_10
+  - first:
+      213: -8130520196191425100
+    second: bounceidlespritesheet_11
+  - first:
+      213: 709985626102193492
+    second: bounceidlespritesheet_12
+  - first:
+      213: 7131337761945624502
+    second: bounceidlespritesheet_13
+  - first:
+      213: 5871570177356511521
+    second: bounceidlespritesheet_14
+  - first:
+      213: 5962846441618058572
+    second: bounceidlespritesheet_15
+  - first:
+      213: -7394836157654026833
+    second: bounceidlespritesheet_16
+  - first:
+      213: 8858348162517319775
+    second: bounceidlespritesheet_17
+  - first:
+      213: 8491072163497915420
+    second: bounceidlespritesheet_18
+  - first:
+      213: 2354769993175399611
+    second: bounceidlespritesheet_19
+  - first:
+      213: 6097696778953319195
+    second: bounceidlespritesheet_20
+  - first:
+      213: 8359795088855554159
+    second: bounceidlespritesheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bounceidlespritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3816
+        width: 226
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3e0cf3726386430800000000000000
+      internalID: 3776327829751391155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3817
+        width: 227
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a36a4639684a340800000000000000
+      internalID: 4874168664328649283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 3819
+        width: 227
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d0e9714a6720860800000000000000
+      internalID: 7494683177040874781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 3819
+        width: 227
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2798414030181d0800000000000000
+      internalID: -3350393331727633680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 3819
+        width: 227
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c91946462526300800000000000000
+      internalID: 243847920968899706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 3819
+        width: 227
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6038640cb27d710800000000000000
+      internalID: 1717889887681840816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 3819
+        width: 226
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d4409a277f259a0800000000000000
+      internalID: -6245657661375492729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3303
+        width: 227
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781c7a6407cd64db0800000000000000
+      internalID: -4807913177391578745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3303
+        width: 227
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba98663b495412550800000000000000
+      internalID: 6134260672422644139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 3303
+        width: 227
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444543edec139bbf0800000000000000
+      internalID: -308160334937172924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 3302
+        width: 227
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e8772cc71ced900800000000000000
+      internalID: 711218532753837607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 3301
+        width: 226
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdeeda75f69a2f80800000000000000
+      internalID: -8130520196191425100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 3301
+        width: 226
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d547f4a206ad900800000000000000
+      internalID: 709985626102193492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 3300
+        width: 226
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf191a39e997f260800000000000000
+      internalID: 7131337761945624502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2784
+        width: 226
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129bc17a7f10c7150800000000000000
+      internalID: 5871570177356511521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2783
+        width: 226
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da8d20f3940c250800000000000000
+      internalID: 5962846441618058572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2783
+        width: 226
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa531d2b1b3406990800000000000000
+      internalID: -7394836157654026833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 2784
+        width: 226
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50449368bc2fea70800000000000000
+      internalID: 8858348162517319775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 2784
+        width: 226
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c143083252956d570800000000000000
+      internalID: 8491072163497915420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 2785
+        width: 226
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcf7fa25d2dda020800000000000000
+      internalID: 2354769993175399611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 2785
+        width: 226
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b136e89d9ee5f9450800000000000000
+      internalID: 6097696778953319195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceidlespritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2268
+        width: 226
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f685a4a5755f30470800000000000000
+      internalID: 8359795088855554159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bounceidlespritesheet_0: 3776327829751391155
+      bounceidlespritesheet_1: 4874168664328649283
+      bounceidlespritesheet_10: 711218532753837607
+      bounceidlespritesheet_11: -8130520196191425100
+      bounceidlespritesheet_12: 709985626102193492
+      bounceidlespritesheet_13: 7131337761945624502
+      bounceidlespritesheet_14: 5871570177356511521
+      bounceidlespritesheet_15: 5962846441618058572
+      bounceidlespritesheet_16: -7394836157654026833
+      bounceidlespritesheet_17: 8858348162517319775
+      bounceidlespritesheet_18: 8491072163497915420
+      bounceidlespritesheet_19: 2354769993175399611
+      bounceidlespritesheet_2: 7494683177040874781
+      bounceidlespritesheet_20: 6097696778953319195
+      bounceidlespritesheet_21: 8359795088855554159
+      bounceidlespritesheet_3: -3350393331727633680
+      bounceidlespritesheet_4: 243847920968899706
+      bounceidlespritesheet_5: 1717889887681840816
+      bounceidlespritesheet_6: -6245657661375492729
+      bounceidlespritesheet_7: -4807913177391578745
+      bounceidlespritesheet_8: 6134260672422644139
+      bounceidlespritesheet_9: -308160334937172924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
