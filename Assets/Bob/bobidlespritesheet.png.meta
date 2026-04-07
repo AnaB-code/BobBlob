@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 1798e08a6f5b2194c9a87950cc3d86b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8442000455458054690
+    second: bobidlespritesheet_0
+  - first:
+      213: -1025967880234864844
+    second: bobidlespritesheet_1
+  - first:
+      213: -6898927793447495077
+    second: bobidlespritesheet_2
+  - first:
+      213: -6559753442210395814
+    second: bobidlespritesheet_3
+  - first:
+      213: 2026011915813173636
+    second: bobidlespritesheet_4
+  - first:
+      213: -6378615407302782045
+    second: bobidlespritesheet_5
+  - first:
+      213: -881853887158644435
+    second: bobidlespritesheet_6
+  - first:
+      213: 2755984932660162024
+    second: bobidlespritesheet_7
+  - first:
+      213: 558601103993057062
+    second: bobidlespritesheet_8
+  - first:
+      213: -115092838753669555
+    second: bobidlespritesheet_9
+  - first:
+      213: 8647449486065437668
+    second: bobidlespritesheet_10
+  - first:
+      213: -8499066429884225816
+    second: bobidlespritesheet_11
+  - first:
+      213: -2303301476414971701
+    second: bobidlespritesheet_12
+  - first:
+      213: -7287161150359406708
+    second: bobidlespritesheet_13
+  - first:
+      213: -7332552488276509668
+    second: bobidlespritesheet_14
+  - first:
+      213: 8601347293748508959
+    second: bobidlespritesheet_15
+  - first:
+      213: 4566151401460235791
+    second: bobidlespritesheet_16
+  - first:
+      213: 8340060144483402106
+    second: bobidlespritesheet_17
+  - first:
+      213: -7613894153037907703
+    second: bobidlespritesheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bobidlespritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1739
+        width: 177
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd9cba305df7da80800000000000000
+      internalID: -8442000455458054690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1739
+        width: 177
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fe3a316a703c1f0800000000000000
+      internalID: -1025967880234864844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1739
+        width: 177
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a1e7459b51240a0800000000000000
+      internalID: -6898927793447495077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1739
+        width: 177
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5947e6dff217f4a0800000000000000
+      internalID: -6559753442210395814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1739
+        width: 177
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489b0c86a17dd1c10800000000000000
+      internalID: 2026011915813173636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 1739
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a352e8151b9a77a0800000000000000
+      internalID: -6378615407302782045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1739
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d219c18df8603c3f0800000000000000
+      internalID: -881853887158644435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3762
+        y: 1739
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eda985c1b93f3620800000000000000
+      internalID: 2755984932660162024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1227
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fa5a69ebc80c700800000000000000
+      internalID: 558601103993057062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1227
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e65e54cab176ef0800000000000000
+      internalID: -115092838753669555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1227
+        width: 213
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb801ecd79e10870800000000000000
+      internalID: 8647449486065437668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1227
+        width: 213
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6ad4cac104d0a80800000000000000
+      internalID: -8499066429884225816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1227
+        width: 213
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc027a7b2870900e0800000000000000
+      internalID: -2303301476414971701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 1227
+        width: 213
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87fcc3fa8dceda90800000000000000
+      internalID: -7287161150359406708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 1227
+        width: 213
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c3f578c5a8d3a90800000000000000
+      internalID: -7332552488276509668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3762
+        y: 1227
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19b5a1bacf1e5770800000000000000
+      internalID: 8601347293748508959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 715
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e70b2d18a3e5f30800000000000000
+      internalID: 4566151401460235791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 715
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71835d8388ddb370800000000000000
+      internalID: 8340060144483402106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobidlespritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 715
+        width: 204
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90970c2ab93065690800000000000000
+      internalID: -7613894153037907703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bobidlespritesheet_0: -8442000455458054690
+      bobidlespritesheet_1: -1025967880234864844
+      bobidlespritesheet_10: 8647449486065437668
+      bobidlespritesheet_11: -8499066429884225816
+      bobidlespritesheet_12: -2303301476414971701
+      bobidlespritesheet_13: -7287161150359406708
+      bobidlespritesheet_14: -7332552488276509668
+      bobidlespritesheet_15: 8601347293748508959
+      bobidlespritesheet_16: 4566151401460235791
+      bobidlespritesheet_17: 8340060144483402106
+      bobidlespritesheet_18: -7613894153037907703
+      bobidlespritesheet_2: -6898927793447495077
+      bobidlespritesheet_3: -6559753442210395814
+      bobidlespritesheet_4: 2026011915813173636
+      bobidlespritesheet_5: -6378615407302782045
+      bobidlespritesheet_6: -881853887158644435
+      bobidlespritesheet_7: 2755984932660162024
+      bobidlespritesheet_8: 558601103993057062
+      bobidlespritesheet_9: -115092838753669555
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

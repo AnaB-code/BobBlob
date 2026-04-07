@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 39955b51219ed0147bbf253716a4f5bc
+guid: 7d14a458b00cbe44ea4c774167a7efe5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4485300514341696304
-    second: bb_0
+      213: 1919353531210904306
+    second: bounceupspritesheet_0
+  - first:
+      213: -2505830857182859890
+    second: bounceupspritesheet_1
+  - first:
+      213: -8717313325707651169
+    second: bounceupspritesheet_2
+  - first:
+      213: 8053192891942395169
+    second: bounceupspritesheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bb_0
+      name: bounceupspritesheet_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 19
+        x: 153
+        y: 651
         width: 226
-        height: 85
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 033b63cbd0dfe3e30800000000000000
-      internalID: 4485300514341696304
+      spriteID: 2f2b7321ed9e2aa10800000000000000
+      internalID: 1919353531210904306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceupspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 662
+        width: 226
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d2762ac10893dd0800000000000000
+      internalID: -2505830857182859890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceupspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 149
+        width: 226
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f979a6177b1e50780800000000000000
+      internalID: -8717313325707651169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bounceupspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 149
+        width: 194
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d5def7440b2cf60800000000000000
+      internalID: 8053192891942395169
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bb_0: 4485300514341696304
+      bounceupspritesheet_0: 1919353531210904306
+      bounceupspritesheet_1: -2505830857182859890
+      bounceupspritesheet_2: -8717313325707651169
+      bounceupspritesheet_3: 8053192891942395169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
