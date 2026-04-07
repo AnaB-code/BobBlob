@@ -42,10 +42,7 @@ public class Grappler : MonoBehaviour
 
         else if (Input.GetMouseButtonUp(0))
         {
-            distanceJoint.enabled = false;
-            lineRenderer.enabled = false;
-            grabbing = false;
-            playerMoveScript.SetUseForce(false);
+            ResetGrappler();
         }
 
         if (distanceJoint.enabled)
@@ -57,5 +54,12 @@ public class Grappler : MonoBehaviour
     public void SetGrab(string g)
     {
         grab = g;
+    }
+
+    public void ResetGrappler() {
+        distanceJoint.enabled = false;
+        lineRenderer.enabled = false;
+        grabbing = false;
+        playerMoveScript.SetUseForce(false);
     }
 }
