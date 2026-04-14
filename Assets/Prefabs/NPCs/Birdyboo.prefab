@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 821370524666632756}
   - component: {fileID: 2755927013830845658}
   - component: {fileID: 4996405347205448724}
+  - component: {fileID: 6534504836625377540}
   m_Layer: 0
   m_Name: Birdyboo
   m_TagString: Ground
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2135585597343286014, guid: 5aa8b770bc43046bc8d993d0d5b7f4a5, type: 3}
+  m_Sprite: {fileID: -6331036151517867004, guid: 9ec6111396af54640ae7c8ac35792120, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -143,3 +144,25 @@ MonoBehaviour:
   offset: {x: -2, y: 0}
   bubbleExists: 0
   prefabVelocity: {x: 0, y: 0}
+--- !u!95 &6534504836625377540
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757716720787333841}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 29d293cde95c0634a9b75624a0125aed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

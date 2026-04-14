@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: e707311edd7e9b548a424274bf4bff40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4750338562659372389
+    second: bootturt_0
+  - first:
+      213: 6094264552666072345
+    second: bootturt_1
+  - first:
+      213: 56579470151084171
+    second: bootturt_2
+  - first:
+      213: -3758329286728768679
+    second: bootturt_3
+  - first:
+      213: 4932253555982056350
+    second: bootturt_4
+  - first:
+      213: -6071519450163996768
+    second: bootturt_5
+  - first:
+      213: -3504070661630863206
+    second: bootturt_6
+  - first:
+      213: -2125142384634341933
+    second: bootturt_7
+  - first:
+      213: 456421512453111042
+    second: bootturt_8
+  - first:
+      213: -6420426988336390347
+    second: bootturt_9
+  - first:
+      213: -6774757636376246424
+    second: bootturt_10
+  - first:
+      213: 1949573777880983990
+    second: bootturt_11
+  - first:
+      213: 1326023291388645176
+    second: bootturt_12
+  - first:
+      213: 1986063404166623975
+    second: bootturt_13
+  - first:
+      213: -1263130925113313742
+    second: bootturt_14
+  - first:
+      213: -8626465887624683405
+    second: bootturt_15
+  - first:
+      213: -6828350760863083642
+    second: bootturt_16
+  - first:
+      213: 440388319876975788
+    second: bootturt_17
+  - first:
+      213: -4587854655448764892
+    second: bootturt_18
+  - first:
+      213: -6857986702229090809
+    second: bootturt_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bootturt_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1693
+        width: 231
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9239d1ee38631eb0800000000000000
+      internalID: -4750338562659372389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_1
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1692
+        width: 234
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9158ae4625d239450800000000000000
+      internalID: 6094264552666072345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_2
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1692
+        width: 237
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b886fe37ab209c000800000000000000
+      internalID: 56579470151084171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1692
+        width: 239
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953a59b1d6bb7dbc0800000000000000
+      internalID: -3758329286728768679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_4
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1692
+        width: 242
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bb77a1a72e27440800000000000000
+      internalID: 4932253555982056350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_5
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1692
+        width: 244
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a799167a31adbba0800000000000000
+      internalID: -6071519450163996768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_6
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 1691
+        width: 245
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98df917c4a0f5fc0800000000000000
+      internalID: -3504070661630863206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_7
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 1691
+        width: 246
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d55ebab24af182e0800000000000000
+      internalID: -2125142384634341933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1179
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d3d9582f8855600800000000000000
+      internalID: 456421512453111042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_9
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1179
+        width: 249
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fd0e5cbaf06e6a0800000000000000
+      internalID: -6420426988336390347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_10
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1179
+        width: 250
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867cd6ce2d93bf1a0800000000000000
+      internalID: -6774757636376246424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_11
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1179
+        width: 249
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9230e85074e0b10800000000000000
+      internalID: 1949573777880983990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_12
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1179
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f4d1f682bf66210800000000000000
+      internalID: 1326023291388645176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_13
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1179
+        width: 246
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e231cab42aef8b10800000000000000
+      internalID: 1986063404166623975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_14
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 1179
+        width: 245
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2367fcfad15787ee0800000000000000
+      internalID: -1263130925113313742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_15
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 1180
+        width: 244
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3702b1deaf2a84880800000000000000
+      internalID: -8626465887624683405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 668
+        width: 242
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683dcf04923dc31a0800000000000000
+      internalID: -6828350760863083642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_17
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 668
+        width: 239
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac8f79f7d29c1600800000000000000
+      internalID: 440388319876975788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_18
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 668
+        width: 237
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42eaad49f7aa450c0800000000000000
+      internalID: -4587854655448764892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootturt_19
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 668
+        width: 234
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e4843fd6983d0a0800000000000000
+      internalID: -6857986702229090809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bootturt_0: -4750338562659372389
+      bootturt_1: 6094264552666072345
+      bootturt_10: -6774757636376246424
+      bootturt_11: 1949573777880983990
+      bootturt_12: 1326023291388645176
+      bootturt_13: 1986063404166623975
+      bootturt_14: -1263130925113313742
+      bootturt_15: -8626465887624683405
+      bootturt_16: -6828350760863083642
+      bootturt_17: 440388319876975788
+      bootturt_18: -4587854655448764892
+      bootturt_19: -6857986702229090809
+      bootturt_2: 56579470151084171
+      bootturt_3: -3758329286728768679
+      bootturt_4: 4932253555982056350
+      bootturt_5: -6071519450163996768
+      bootturt_6: -3504070661630863206
+      bootturt_7: -2125142384634341933
+      bootturt_8: 456421512453111042
+      bootturt_9: -6420426988336390347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
