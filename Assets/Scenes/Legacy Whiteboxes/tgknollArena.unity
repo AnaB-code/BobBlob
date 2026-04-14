@@ -342,11 +342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.17
+      value: -9.35
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.99
+      value: -3.2
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -386,15 +386,15 @@ PrefabInstance:
       objectReference: {fileID: 1982987095}
     - target: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_Distance
-      value: 2.3556077
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 18.103615
+      value: -9.35
       objectReference: {fileID: 0}
     - target: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -1.2167149
+      value: -3.37
       objectReference: {fileID: 0}
     - target: {fileID: 2470548903885628086, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: mainCamera
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnDelay: 1
-  player: {fileID: 0}
+  player: {fileID: 1814001685}
   isDead: 0
 --- !u!4 &343554148
 Transform:
@@ -943,7 +943,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
   fireRate: 2
-  offset: {x: -1, y: 0.3}
+  offset: {x: 1, y: 0.3}
+  isFiringRight: 1
 --- !u!1001 &1012062175
 PrefabInstance:
   m_ObjectHideFlags: 0
