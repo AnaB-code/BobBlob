@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 132762e7af7415f41a0bb293d53271cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -396179557481720800
+    second: holospritesheet_0
+  - first:
+      213: -9159684644860772424
+    second: holospritesheet_1
+  - first:
+      213: 7589838511899836958
+    second: holospritesheet_2
+  - first:
+      213: -4663436197348370597
+    second: holospritesheet_3
+  - first:
+      213: -4084926598590280396
+    second: holospritesheet_4
+  - first:
+      213: -8697166783129209310
+    second: holospritesheet_5
+  - first:
+      213: 8525993245472571072
+    second: holospritesheet_6
+  - first:
+      213: -1295082584562959093
+    second: holospritesheet_7
+  - first:
+      213: 8596350182084706425
+    second: holospritesheet_8
+  - first:
+      213: 1937092808426107155
+    second: holospritesheet_9
+  - first:
+      213: -3419804288667763551
+    second: holospritesheet_10
+  - first:
+      213: 6728684084452821055
+    second: holospritesheet_11
+  - first:
+      213: -3350907101665731630
+    second: holospritesheet_12
+  - first:
+      213: -1021198496654109939
+    second: holospritesheet_13
+  - first:
+      213: 3883658091874079565
+    second: holospritesheet_14
+  - first:
+      213: 935696651343856910
+    second: holospritesheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: holospritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1815
+        width: 242
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024d701aacc708af0800000000000000
+      internalID: -396179557481720800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1758
+        width: 128
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf3978785342e080800000000000000
+      internalID: -9159684644860772424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1814
+        width: 242
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e128e54f9e5845960800000000000000
+      internalID: 7589838511899836958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1757
+        width: 128
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b571a588c75284fb0800000000000000
+      internalID: -4663436197348370597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1755
+        width: 242
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d4b75c6ec6f47c0800000000000000
+      internalID: -4084926598590280396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1754
+        width: 242
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226b14be3e47d4780800000000000000
+      internalID: -8697166783129209310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1241
+        width: 242
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceb5c12fa9625670800000000000000
+      internalID: 8525993245472571072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1240
+        width: 242
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d74504041f60ee0800000000000000
+      internalID: -1295082584562959093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1239
+        width: 242
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9700608f1fe5c4770800000000000000
+      internalID: 8596350182084706425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1296
+        width: 242
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311b33765afe1ea10800000000000000
+      internalID: 1937092808426107155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1239
+        width: 128
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acb99c4e1a6a80d0800000000000000
+      internalID: -3419804288667763551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 783
+        width: 242
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3882a35686116d50800000000000000
+      internalID: 6728684084452821055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 726
+        width: 128
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db51e1bebf2f71d0800000000000000
+      internalID: -3350907101665731630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 725
+        width: 242
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03d4c9b069f3d1f0800000000000000
+      internalID: -1021198496654109939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 782
+        width: 242
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43d933457685e530800000000000000
+      internalID: 3883658091874079565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holospritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 724
+        width: 128
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e058fd895234cfc00800000000000000
+      internalID: 935696651343856910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      holospritesheet_0: -396179557481720800
+      holospritesheet_1: -9159684644860772424
+      holospritesheet_10: -3419804288667763551
+      holospritesheet_11: 6728684084452821055
+      holospritesheet_12: -3350907101665731630
+      holospritesheet_13: -1021198496654109939
+      holospritesheet_14: 3883658091874079565
+      holospritesheet_15: 935696651343856910
+      holospritesheet_2: 7589838511899836958
+      holospritesheet_3: -4663436197348370597
+      holospritesheet_4: -4084926598590280396
+      holospritesheet_5: -8697166783129209310
+      holospritesheet_6: 8525993245472571072
+      holospritesheet_7: -1295082584562959093
+      holospritesheet_8: 8596350182084706425
+      holospritesheet_9: 1937092808426107155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
