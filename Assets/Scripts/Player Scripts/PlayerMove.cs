@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour {
     Rigidbody2D rb; //var for character controller on player
     public BouncingController bc;
+    private Animator anim;
 
     // grappling script sets this, not whether grounded etc
     public bool useForce = false; // use AddForce (grappling) or set velocity directly (movement)
@@ -27,6 +28,7 @@ public class PlayerMove : MonoBehaviour {
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update() {
