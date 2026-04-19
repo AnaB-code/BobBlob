@@ -3250,7 +3250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f505a4ab259f5545836500af44ff28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: CellBlocks2
+  nextSceneLoad: 0
 --- !u!61 &1445612195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4198,6 +4198,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 741986992}
+    - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
+      propertyPath: playerAnim
+      value: 
+      objectReference: {fileID: 741987008}
     - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: respawnPoint
       value: 
