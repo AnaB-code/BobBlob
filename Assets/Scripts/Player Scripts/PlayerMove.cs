@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
@@ -23,16 +24,20 @@ public class PlayerMove : MonoBehaviour {
     private float jumpInputCounter; //jump buffer window counter
 
     public bool isGrounded = false; //bool for weather player is on the ground or not
+    public GameObject respawnPoint;
+    public bool isDead = false;
 
     //public float maxV = 0;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        isDead = false;
     }
 
     void Update() {
         Move();
+        Animate();
 
         // isGrounded = isTouchingGround;
         // if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -47,7 +52,8 @@ public class PlayerMove : MonoBehaviour {
         // Debug.Log(isGrounded);
     }
     void Move() {
-        // SetVelocity (movement) versus AddForce (while grappling)
+        if (!isDead) {
+            // SetVelocity (movement) versus AddForce (while grappling)
         if (useForce) {
             // Can use one or both axes! Horiz is most realistic for swing motion,
             // but vertical helps you do 360 loops ;)  powerup?
@@ -56,6 +62,11 @@ public class PlayerMove : MonoBehaviour {
         } else {
             // Only horiz axis (no vertical movement besides jumping)
             rb.linearVelocityX = velSpeed * Input.GetAxis("Horizontal");
+            if (Input.GetAxis("Horizontal") != 0f) {
+                anim.SetBool("walkState", true);
+            } else {
+                anim.SetBool("walkState", false);
+            }
         }
 
         if (isGrounded == true) { //detects if player is on ground
@@ -86,12 +97,13 @@ public class PlayerMove : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.LeftShift)) {
             // bc.bouncy = 0;
-            rb.sharedMaterial.bounciness = 0;
-            rb.sharedMaterial = rb.sharedMaterial;
-            
-            rb.linearVelocity = Vector2.zero;
-            rb.gravityScale = 3f;
+            Slam();
         }
+        }
+    }
+
+    void Animate() {
+        anim.SetBool("inairState", !isGrounded);
     }
 
     public void setMaterialBounciness(float incomingBounciness) {
@@ -101,7 +113,7 @@ public class PlayerMove : MonoBehaviour {
     // Don't know if OnGround is needed/used anywhere
     public void OnGround(bool yn) {
         isGrounded = yn;
-        Debug.Log("isGrounded from other script" + isGrounded);
+        Debug.Log("isGrounded from other script = " + isGrounded);
         rb.gravityScale = 1f;
     }
 
@@ -113,5 +125,21 @@ public class PlayerMove : MonoBehaviour {
     }
     public void SetUseForce(bool force) { // So can change move method while grappling
         useForce = force;                 // grappler script calls this
+    }
+    
+    public void TriggerAnimState(string stateName) {
+        anim.SetBool(stateName, true);
+    }
+
+    public void AnimTriggerer(string trigName) {
+        anim.SetTrigger(trigName);
+    }
+
+    public void Slam() {
+        rb.sharedMaterial.bounciness = 0;
+        rb.sharedMaterial = rb.sharedMaterial;
+            
+        rb.linearVelocity = Vector2.zero;
+        rb.gravityScale = 3f;
     }
 }
