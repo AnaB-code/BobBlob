@@ -10,8 +10,12 @@ public class DieAndRespawnn : MonoBehaviour {
         if (other.gameObject.CompareTag("Player")) {//checks if what hits it is the player
             player.GetComponent<PlayerMove>().AnimTriggerer("deathState");
             player.GetComponent<DeathCheck>().myKiller = this.gameObject;
+            player.GetComponent<PlayerMove>().Slam();
             player.GetComponent<PlayerMove>().isDead = true;
-            
+
+            if (willReloadScene) {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
             //Murder();
         }
     }
