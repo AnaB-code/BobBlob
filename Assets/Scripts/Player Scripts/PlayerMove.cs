@@ -24,7 +24,7 @@ public class PlayerMove : MonoBehaviour {
     private float jumpInputCounter; //jump buffer window counter
 
     public bool isGrounded = false; //bool for weather player is on the ground or not
-    public GameObject respawnPoint;
+    //public GameObject respawnPoint;
     public bool isDead = false;
 
     //public float maxV = 0;
