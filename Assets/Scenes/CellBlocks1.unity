@@ -4460,6 +4460,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 741986992}
     - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
+      propertyPath: playerAnim
+      value: 
+      objectReference: {fileID: 741987008}
+    - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 1762354774}
