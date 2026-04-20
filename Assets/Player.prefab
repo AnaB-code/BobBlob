@@ -425,6 +425,7 @@ MonoBehaviour:
   coyoteTime: 0.2
   jumpInputTime: 0.2
   isGrounded: 1
+  isDead: 0
 --- !u!114 &5375803833653999908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +476,9 @@ MonoBehaviour:
   rt: {fileID: 0}
   ps: {fileID: 5375803833653999908}
   g: {fileID: 2470548903885628086}
+  respawnPoint: {fileID: 0}
+  myKiller: {fileID: 0}
+  myself: {fileID: 4228435414669488335}
 --- !u!114 &6347097621867380440
 MonoBehaviour:
   m_ObjectHideFlags: 0

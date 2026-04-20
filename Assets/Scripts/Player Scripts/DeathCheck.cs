@@ -5,7 +5,9 @@ public class DeathCheck : MonoBehaviour {
     public PlayerSounds ps;
     public Grappler g;
 
-    public GameObject myKiller;
+    public GameObject respawnPoint;
+	public GameObject myKiller;
+	[SerializeField] GameObject myself;
     
     void OnDisable() {
         rt.SetIsDead(true);
@@ -14,6 +16,8 @@ public class DeathCheck : MonoBehaviour {
     }
 
     public void KeelOver() {
-        myKiller.GetComponent<DieAndRespawnn>().Murder();
+        //myKiller.GetComponent<DieAndRespawnn>().Murder();
+		this.transform.position = respawnPoint.transform.position; //puts player at respawn point
+        myself.SetActive(false); //disables player (is tempoary) 
     }
 }
