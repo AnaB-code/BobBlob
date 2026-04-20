@@ -112,10 +112,10 @@ TextureImporter:
       name: scameras_0
       rect:
         serializedVersion: 2
-        x: 203
-        y: 350
-        width: 133
-        height: 117
+        x: 0
+        y: 0
+        width: 700
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,77 +130,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: scameras_1
-      rect:
-        serializedVersion: 2
-        x: 339
-        y: 403
-        width: 67
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f3a67bf91bee56c0800000000000000
-      internalID: -4152623309563452427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scameras_2
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 404
-        width: 72
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e41c8685e666b180800000000000000
-      internalID: -9099972861064637210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scameras_3
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 25
-        width: 400
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 055a143be775ffa30800000000000000
-      internalID: 4251212774945957200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eee0d82be7da8b7488c274fcf1945f0c
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +145,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       scameras_0: 8775579845096187320
-      scameras_1: -4152623309563452427
-      scameras_2: -9099972861064637210
-      scameras_3: 4251212774945957200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
