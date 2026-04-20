@@ -3,6 +3,10 @@ using UnityEngine;
 public class PressureButton : MonoBehaviour
 {
     public DoorOpen myDoorOpen;
+    public AudioSource audioSource;
+
+    public AudioClip buttonPress;
+    public AudioClip unpress;
     //bool hasPressed=false;
     //public Vector3 ogPos;
     //bool returnPos = false;
@@ -26,6 +30,8 @@ public class PressureButton : MonoBehaviour
         if(collision.gameObject.CompareTag("Box") ){
         //collision.transform.parent = transform;
         GetComponent<SpriteRenderer>().color = Color.green;
+        audioSource.clip = buttonPress;
+        audioSource.Play();
         myDoorOpen.addCount(1);
         //hasPressed=true;
        // doorUnlock.addCount(1);
@@ -38,6 +44,8 @@ public class PressureButton : MonoBehaviour
         //returnPos = true;
         //collision.transform.parent = null;
         GetComponent<SpriteRenderer>().color = Color.blue;
+        audioSource.clip = unpress;
+        audioSource.Play();
         myDoorOpen.addCount(-1);
         //hasPressed = false;
         //}

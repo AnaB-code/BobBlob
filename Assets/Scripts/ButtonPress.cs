@@ -7,6 +7,10 @@ public class ButtonPress : MonoBehaviour
 
     public DoorOpen myDoorOpen;
     bool hasPressed=false;
+   public AudioSource audioSource;
+
+   public AudioClip buttonPress;
+    //public AudioClip unpress;
 
     void Start()
     {
@@ -27,6 +31,8 @@ public class ButtonPress : MonoBehaviour
         if(collision.transform.name == "Player"){
        
         GetComponent<SpriteRenderer>().color = Color.green;
+         audioSource.clip = buttonPress;
+         audioSource.Play();
            // counter = counter + 1;
            //Once the button turns green a counter goes up. Once counter reaches number to whatever is assigned in the script inspecter door will open
         myDoorOpen.addCount(1);
