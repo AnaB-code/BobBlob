@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 073115057e368134b81d2911e348c9b2
+guid: 32d4dc033e5f7384d948c0df198a8cb2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8728316919932689776
-    second: scameras2_0
-  - first:
-      213: -8559751438017111589
-    second: scameras2_1
-  - first:
-      213: -2238792192249125451
-    second: scameras2_2
-  - first:
-      213: 2132268482989268004
-    second: scameras2_3
+      213: 1916072765096619625
+    second: bobincon4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: scameras2_0
+      name: bobincon4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 700
-        height: 500
+        x: 20
+        y: 39
+        width: 206
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07d9e9b7ef5312970800000000000000
-      internalID: 8728316919932689776
+      spriteID: 96e626f2702479a10800000000000000
+      internalID: 1916072765096619625
       vertices: []
       indices: 
       edges: []
@@ -134,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 310d4962172b9534dacbff3fe603d78c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      scameras2_0: 8728316919932689776
+      bobincon4_0: 1916072765096619625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
