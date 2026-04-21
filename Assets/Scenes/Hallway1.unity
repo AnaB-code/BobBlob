@@ -1037,6 +1037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: 0
   maxCount: 3
+  audioSource: {fileID: 0}
+  open: {fileID: 0}
+  close: {fileID: 0}
 --- !u!1 &264739500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,6 +2750,10 @@ PrefabInstance:
       propertyPath: rt
       value: 
       objectReference: {fileID: 1967446590}
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1967446589}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.98
@@ -3829,6 +3836,9 @@ MonoBehaviour:
   myDoorOpen: {fileID: 256570566}
   startTime: 10
   timeElapsed: 0
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!212 &1293863815
 SpriteRenderer:
   m_ObjectHideFlags: 0

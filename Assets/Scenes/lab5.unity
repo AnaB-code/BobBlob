@@ -5623,6 +5623,10 @@ PrefabInstance:
       propertyPath: rt
       value: 
       objectReference: {fileID: 1991057128}
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1991057127}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.7
@@ -17543,6 +17547,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 353180618}
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!95 &1970747688
 Animator:
   serializedVersion: 7

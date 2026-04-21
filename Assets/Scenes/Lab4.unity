@@ -8150,6 +8150,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 195225687}
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!61 &833323794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9162,6 +9165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFloorOpen: {fileID: 1926775198}
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!212 &926839765
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27122,6 +27128,10 @@ PrefabInstance:
       propertyPath: rt
       value: 
       objectReference: {fileID: 1578120831}
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1578120830}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.9
@@ -30689,6 +30699,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 19235701}
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!114 &1784399907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30702,6 +30715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 1882280760}
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!61 &1784399908
 BoxCollider2D:
   m_ObjectHideFlags: 0
