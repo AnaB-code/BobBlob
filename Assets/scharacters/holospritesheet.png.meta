@@ -148,10 +148,10 @@ TextureImporter:
       name: holospritesheet_0
       rect:
         serializedVersion: 2
-        x: 125
-        y: 1815
-        width: 242
-        height: 95
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: holospritesheet_1
       rect:
         serializedVersion: 2
-        x: 186
-        y: 1758
-        width: 128
-        height: 58
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: holospritesheet_2
       rect:
         serializedVersion: 2
-        x: 637
-        y: 1814
-        width: 242
-        height: 95
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: holospritesheet_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 1757
-        width: 128
-        height: 58
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: holospritesheet_4
       rect:
         serializedVersion: 2
-        x: 1149
-        y: 1755
-        width: 242
-        height: 153
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: holospritesheet_5
       rect:
         serializedVersion: 2
-        x: 1661
-        y: 1754
-        width: 242
-        height: 153
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: holospritesheet_6
       rect:
         serializedVersion: 2
-        x: 125
-        y: 1241
-        width: 242
-        height: 153
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: holospritesheet_7
       rect:
         serializedVersion: 2
-        x: 637
-        y: 1240
-        width: 242
-        height: 153
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +324,10 @@ TextureImporter:
       name: holospritesheet_8
       rect:
         serializedVersion: 2
-        x: 1149
-        y: 1239
-        width: 242
-        height: 153
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +346,10 @@ TextureImporter:
       name: holospritesheet_9
       rect:
         serializedVersion: 2
-        x: 1661
-        y: 1296
-        width: 242
-        height: 95
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: holospritesheet_10
       rect:
         serializedVersion: 2
-        x: 1722
-        y: 1239
-        width: 128
-        height: 58
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,121 +386,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: holospritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 783
-        width: 242
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3882a35686116d50800000000000000
-      internalID: 6728684084452821055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: holospritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 726
-        width: 128
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2db51e1bebf2f71d0800000000000000
-      internalID: -3350907101665731630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: holospritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 725
-        width: 242
-        height: 153
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d03d4c9b069f3d1f0800000000000000
-      internalID: -1021198496654109939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: holospritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 1149
-        y: 782
-        width: 242
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d43d933457685e530800000000000000
-      internalID: 3883658091874079565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: holospritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 1210
-        y: 724
-        width: 128
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e058fd895234cfc00800000000000000
-      internalID: 935696651343856910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 20b71fa421390c04cbc542d8983f7090
     internalID: 0
     vertices: []
     indices: 
@@ -513,11 +403,6 @@ TextureImporter:
       holospritesheet_0: -396179557481720800
       holospritesheet_1: -9159684644860772424
       holospritesheet_10: -3419804288667763551
-      holospritesheet_11: 6728684084452821055
-      holospritesheet_12: -3350907101665731630
-      holospritesheet_13: -1021198496654109939
-      holospritesheet_14: 3883658091874079565
-      holospritesheet_15: 935696651343856910
       holospritesheet_2: 7589838511899836958
       holospritesheet_3: -4663436197348370597
       holospritesheet_4: -4084926598590280396
