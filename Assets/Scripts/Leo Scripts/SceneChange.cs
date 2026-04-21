@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 public class SceneChange : MonoBehaviour {
     //[SerializeField] private string scene;
@@ -15,12 +17,20 @@ public class SceneChange : MonoBehaviour {
     {
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(nextSceneLoad);
+            if(SceneManager.GetActiveScene().buildIndex == 20)
+            {
+                print("WIN");
+            }
+            else
+            {
+                 SceneManager.LoadScene(nextSceneLoad);
 
             if(nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
             {
                 PlayerPrefs.SetInt("levelAt", nextSceneLoad);
             }
+            }
+           
         }
     }
     
