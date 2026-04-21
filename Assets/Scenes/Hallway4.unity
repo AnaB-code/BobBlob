@@ -6612,6 +6612,10 @@ PrefabInstance:
       propertyPath: rt
       value: 
       objectReference: {fileID: 1403436592}
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1403436591}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.53
@@ -13420,6 +13424,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: 0
   maxCount: 1
+  audioSource: {fileID: 0}
+  open: {fileID: 0}
+  close: {fileID: 0}
 --- !u!61 &1166671035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19495,6 +19502,9 @@ MonoBehaviour:
   myDoorOpen: {fileID: 1166671034}
   startTime: 50
   timeElapsed: 0
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
+  unpress: {fileID: 0}
 --- !u!61 &2023651533
 BoxCollider2D:
   m_ObjectHideFlags: 0

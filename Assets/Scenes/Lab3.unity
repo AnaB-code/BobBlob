@@ -8239,6 +8239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 1747876019}
+  audioSource: {fileID: 0}
+  buttonPress: {fileID: 0}
 --- !u!61 &899878463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10090,6 +10092,10 @@ PrefabInstance:
       propertyPath: rt
       value: 
       objectReference: {fileID: 2056057364}
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 2056057363}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.51
