@@ -1991,7 +1991,7 @@ Transform:
   m_GameObject: {fileID: 192578645}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 40.77, y: 7.7, z: 0.19862166}
+  m_LocalPosition: {x: 40.86, y: 5.55, z: 0.19862166}
   m_LocalScale: {x: 2.3625002, y: 1.9499999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2349,7 +2349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c036472c53de854b8eb5f81afd0b701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFloorOpen: {fileID: 1351591538}
   audioSource: {fileID: 205733066}
   buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
   unpress: {fileID: 8300000, guid: c4b98f2e3244aff439b6ebe8493f0fd0, type: 3}
@@ -14936,7 +14935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2903016506981504680, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.55
+      value: -38.06
       objectReference: {fileID: 0}
     - target: {fileID: 2903016506981504680, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: m_LocalPosition.y
@@ -32238,7 +32237,7 @@ Transform:
   m_GameObject: {fileID: 1351591537}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 46.5, y: 7.78, z: 0.19862166}
+  m_LocalPosition: {x: 46.59, y: 5.67, z: 0.19862166}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34193,7 +34192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c036472c53de854b8eb5f81afd0b701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFloorOpen: {fileID: 1351591538}
   audioSource: {fileID: 1461794929}
   buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
   unpress: {fileID: 8300000, guid: c4b98f2e3244aff439b6ebe8493f0fd0, type: 3}
@@ -42115,11 +42113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2172144381426666864, guid: 281bb2dae46beea48bd5933ac3cb296a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -59.6
+      value: -38.05
       objectReference: {fileID: 0}
     - target: {fileID: 2172144381426666864, guid: 281bb2dae46beea48bd5933ac3cb296a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.27
+      value: 21.19
       objectReference: {fileID: 0}
     - target: {fileID: 2172144381426666864, guid: 281bb2dae46beea48bd5933ac3cb296a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42398,7 +42396,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c036472c53de854b8eb5f81afd0b701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFloorOpen: {fileID: 0}
   audioSource: {fileID: 1988891343}
   buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
   unpress: {fileID: 8300000, guid: c4b98f2e3244aff439b6ebe8493f0fd0, type: 3}
@@ -43997,7 +43994,7 @@ Transform:
   m_GameObject: {fileID: 2090657244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -70.38, y: 55.1, z: 0}
+  m_LocalPosition: {x: -70.38, y: 49.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44021,11 +44018,11 @@ PrefabInstance:
       objectReference: {fileID: 2090657244}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -70.54
+      value: -70.33
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.4
+      value: 45.59
       objectReference: {fileID: 0}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -44069,7 +44066,7 @@ PrefabInstance:
       objectReference: {fileID: 2058079264}
     - target: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_Distance
-      value: 77.03348
+      value: 17.00827
       objectReference: {fileID: 0}
     - target: {fileID: 1563966087797278156, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_ConnectedAnchor.x

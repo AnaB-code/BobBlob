@@ -1,8 +1,10 @@
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class PressureButton : MonoBehaviour
 {
-    public DoorOpen myDoorOpen;
+    DoorOpen myDoorOpen;
     public AudioSource audioSource;
 
     public AudioClip buttonPress;
@@ -14,58 +16,82 @@ public class PressureButton : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       // ogPos = transform.position;
-        
+        // ogPos = transform.position;
+        myDoorOpen = GameObject.FindWithTag("Door").GetComponent<DoorOpen>();
+
+        if(myDoorOpen == null)
+        {
+            print("Is null!!");
+        }
+
     }
-   // private void OnCollisionStay2D(Collision2D collision){
-       // if(collision.transform.name == "Box" || collision.transform.name == "Player" ){
-            //transform.Translate(0, -0.005f, 0);
-           // returnPos = false;
-            
-        //}
-        
+    // private void OnCollisionStay2D(Collision2D collision){
+    // if(collision.transform.name == "Box" || collision.transform.name == "Player" ){
+    //transform.Translate(0, -0.005f, 0);
+    // returnPos = false;
+
     //}
-    private void OnCollisionEnter2D(Collision2D collision){
-       
-        if(collision.gameObject.CompareTag("Box") ){
-        //collision.transform.parent = transform;
-        GetComponent<SpriteRenderer>().color = Color.green;
-        audioSource.clip = buttonPress;
-        audioSource.Play();
-        myDoorOpen.addCount(1);
-        //hasPressed=true;
-       // doorUnlock.addCount(1);
-        
+
+    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Box"))
+        {
+            //collision.transform.parent = transform;
+            GetComponent<SpriteRenderer>().color = Color.green;
+            audioSource.clip = buttonPress;
+            audioSource.Play();
+
+            if(myDoorOpen != null)
+            {
+                myDoorOpen.addCount(1);
+            }
+
+            
+            //  Debug.Log("box press");
+            //hasPressed=true;
+            // doorUnlock.addCount(1);
+
         }
     }
-      private void OnCollisionExit2D(Collision2D collision){
+    private void OnCollisionExit2D(Collision2D collision)
+    {
         //if(hasPressed=true){
-    if(collision.gameObject.CompareTag("Box")){
-        //returnPos = true;
-        //collision.transform.parent = null;
-        GetComponent<SpriteRenderer>().color = Color.blue;
-        audioSource.clip = unpress;
-        audioSource.Play();
-        myDoorOpen.addCount(-1);
-        //hasPressed = false;
-        //}
+        if (collision.gameObject.CompareTag("Box"))
+        {
+            //returnPos = true;
+            //collision.transform.parent = null;
+            GetComponent<SpriteRenderer>().color = Color.blue;
+            audioSource.clip = unpress;
+            audioSource.Play();
+
+            if(myDoorOpen != null)
+            {
+                myDoorOpen.addCount(-1);
+            }
+            
+            // Debug.Log("box unpress");
+
+            //hasPressed = false;
+            //}
         }
     }
 
-    
-  
+
+
 
     // Update is called once per frame
     void Update()
     {
         //if(returnPos == true){
-            //if(transform.position.y < ogPos.y){
-               // transform.Translate(0, 0.01f, 0);
-                
-            //}
-            //else{
-               // returnPos = false;
-            //}
-        }
+        //if(transform.position.y < ogPos.y){
+        // transform.Translate(0, 0.01f, 0);
+
+        //}
+        //else{
+        // returnPos = false;
+        //}
     }
+}
 
