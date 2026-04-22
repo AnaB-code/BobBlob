@@ -25,10 +25,10 @@ public class SceneChange : MonoBehaviour {
             {
                  SceneManager.LoadScene(nextSceneLoad);
 
-            if(nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
-            {
-                PlayerPrefs.SetInt("levelAt", nextSceneLoad);
-            }
+                if(nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
+                {
+                    PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+                }
             }
            
         }

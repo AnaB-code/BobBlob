@@ -26,6 +26,8 @@ public class FloorOpen : MonoBehaviour
             print("done");
             // do something
            transform.position = myPosition+ new Vector3(0,-2.5f,0);
+            gameObject.SetActive(false);
+
         } else {
             print("not done");
             // do something
