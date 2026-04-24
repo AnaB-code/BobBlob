@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class FloorPressureButton : MonoBehaviour
 {
-    public FloorOpen myFloorOpen;
+    FloorOpen myFloorOpen;
+    public AudioSource audioSource;
+
+    public AudioClip buttonPress;
+    public AudioClip unpress;
     //bool hasPressed=false;
     //public Vector3 ogPos;
     //bool returnPos = false;
@@ -11,6 +15,7 @@ public class FloorPressureButton : MonoBehaviour
     void Start()
     {
        // ogPos = transform.position;
+       myFloorOpen = GameObject.FindWithTag("Door").GetComponent<FloorOpen>();
         
     }
    // private void OnCollisionStay2D(Collision2D collision){
@@ -26,7 +31,16 @@ public class FloorPressureButton : MonoBehaviour
         if(collision.gameObject.CompareTag("Box") ){
         //collision.transform.parent = transform;
         GetComponent<SpriteRenderer>().color = Color.green;
-        myFloorOpen.addCount(1);
+       
+        audioSource.clip = buttonPress;
+        audioSource.Play();
+
+
+        if(myFloorOpen != null)
+        {
+            myFloorOpen.addCount(1);
+        }
+
         //hasPressed=true;
        // doorUnlock.addCount(1);
         
@@ -38,7 +52,15 @@ public class FloorPressureButton : MonoBehaviour
         //returnPos = true;
         //collision.transform.parent = null;
         GetComponent<SpriteRenderer>().color = Color.blue;
-        myFloorOpen.addCount(-1);
+        audioSource.clip = unpress;
+        audioSource.Play();
+
+        if(myFloorOpen != null)
+        {
+            myFloorOpen.addCount(-1);
+        }
+
+        
         //hasPressed = false;
         //}
         }

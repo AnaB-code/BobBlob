@@ -25,8 +25,21 @@ public class PlayerMove : MonoBehaviour {
 
     //public float maxV = 0;
 
+    //variables for flip code
+    [SerializeField] float timeToFlip = .3f;
+    [SerializeField] AnimationCurve flipCurve = AnimationCurve.EaseInOut(0,0,1,1);
+    [SerializeField] float flipSensitivity;
+    Vector3 localScale;
+    Vector3 targetScale;
+    bool flipState;
+    float maxScale;
+    Coroutine flipRoutine;
+
     void Start() {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        isDead = false;
+        maxScale = transform.localScale.x;
     }
 
     void Update() {
@@ -90,6 +103,39 @@ public class PlayerMove : MonoBehaviour {
             rb.linearVelocity = Vector2.zero;
             rb.gravityScale = 3f;
         }
+    }
+
+    void Animate() {
+        anim.SetBool("inairState", !isGrounded);
+		
+		/*if(Input.GetAxis("Horizontal") < 0 && !isDead) {
+			Debug.Log("You are moving to the right!");
+		}
+		if(Input.GetAxis("Horizontal") > 0 && !isDead) {
+			Debug.Log("You are moving to the left!");
+        }*/
+
+        if (rb.linearVelocity.magnitude <= flipSensitivity) return;
+
+        if (flipRoutine == null)
+            flipRoutine = StartCoroutine(Flip());
+    }
+
+    IEnumerator Flip() {
+        flipState = rb.linearVelocity.x > 0;
+        localScale = transform.localScale;
+        targetScale = localScale;
+        targetScale.x = flipState ? maxScale : -maxScale;
+        float flipTime = 0;
+
+        while (timeToFlip > flipTime) {
+            flipTime += Time.deltaTime;
+            transform.localScale = Vector3.Lerp(localScale, targetScale, 
+            flipCurve.Evaluate(flipTime / timeToFlip));
+
+            yield return null;
+        }
+        flipRoutine = null;
     }
 
     public void setMaterialBounciness(float incomingBounciness) {

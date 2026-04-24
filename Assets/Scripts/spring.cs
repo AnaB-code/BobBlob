@@ -8,10 +8,15 @@ public class spring : MonoBehaviour
     {
         Rigidbody2D rb = collision.rigidbody;
 
-        if (rb != null)
-        {
-            // Force a strong upward bounce using physics (not velocity)
-            rb.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+    public AudioClip bounce;
+    
+    void OnCollisionEnter2D(Collision2D other) {
+        
+        if (other.gameObject.CompareTag("Player")) {
+            other.gameObject.GetComponent<PlayerMove>().SetBounce(jumpForceX, jumpForceY);
+            audioSource.clip = bounce;
+            audioSource.Play();
+            
         }
     }
 }
