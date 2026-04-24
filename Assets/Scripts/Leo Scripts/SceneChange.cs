@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -33,11 +31,4 @@ public class SceneChange : MonoBehaviour {
            
         }
     }
-    
-   // private void OnCollisionEnter2D(Collision2D other){
-       // if(other.gameObject.CompareTag("Player")){
-            //SceneManager.LoadScene(scene);
-            //if(LoadScene)
-        //}
-   // }
 }

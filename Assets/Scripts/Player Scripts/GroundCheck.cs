@@ -59,10 +59,10 @@ public class GroundCheck : MonoBehaviour {
             */
         }
 
-        if (collision.gameObject.CompareTag("Secret"))
-        {
-            globalSecret.changeSecretCounter(1);
-        }
+        ///if (collision.gameObject.CompareTag("Secret"))
+      //  {
+          //  globalSecret.changeSecretCounter(1);
+       // }
     }
 
     private void OnCollisionExit2D(Collision2D collision) {

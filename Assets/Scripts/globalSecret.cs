@@ -8,14 +8,12 @@ public static class globalSecret
 
     public static void changeSecretCounter(int amount)
     {
-        
         secretCounter = secretCounter + amount;
         UnityEngine.Debug.Log(secretCounter);
-        
-       // if (secretCounter == 5)
-        //{
+        if (secretCounter == 5)
+        {
             
             // secretEnding = true;
-        //}
+        }
     }
 }
