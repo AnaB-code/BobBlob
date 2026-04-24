@@ -8,10 +8,6 @@ public class TimedLever : MonoBehaviour
     bool hasPressed = false;
     public float startTime = 10f;
     public float timeElapsed;
-    public AudioSource audioSource;
-
-    public AudioClip buttonPress;
-    public AudioClip unpress;
     void Start()
     {
         timeElapsed = startTime;
@@ -27,8 +23,6 @@ public class TimedLever : MonoBehaviour
             {
                 GetComponent<SpriteRenderer>().color = Color.green;
                 myDoorOpen.openDoor();
-                 audioSource.clip = buttonPress;
-                 audioSource.Play();
                 hasPressed = true;
             }
 
@@ -45,8 +39,6 @@ public class TimedLever : MonoBehaviour
                 timeElapsed = startTime;
                 hasPressed = false;
                 GetComponent<SpriteRenderer>().color = Color.blue;
-                audioSource.clip = unpress;
-                audioSource.Play();
                 myDoorOpen.closeDoor();
             }
 

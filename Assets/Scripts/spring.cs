@@ -1,20 +1,17 @@
 using UnityEngine;
 
-public class spring : MonoBehaviour {
-    public float jumpForceX;
-    public float jumpForceY;
+public class spring : MonoBehaviour
+{
+    public float bounceForce = 20f;
 
-    public AudioSource audioSource;
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Rigidbody2D rb = collision.rigidbody;
 
-    public AudioClip bounce;
-    
-    void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log(other.gameObject.tag);
-        if (other.gameObject.CompareTag("Player")) {
-            other.gameObject.GetComponent<PlayerMove>().SetBounce(jumpForceX, jumpForceY);
-            audioSource.clip = bounce;
-            audioSource.Play();
-            
+        if (rb != null)
+        {
+            // Force a strong upward bounce using physics (not velocity)
+            rb.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
         }
     }
 }

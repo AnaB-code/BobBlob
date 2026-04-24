@@ -6,9 +6,6 @@ public class Firearm : MonoBehaviour {
     private float timeLeftToNextInstantiation;
     public float fireRate;
     public Vector2 offset;
-    public bool isFiringRight;
-    //public AudioSource audioSource;
-   // public AudioClip shootSfx;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -19,13 +16,7 @@ public class Firearm : MonoBehaviour {
     void Update() {
         timeLeftToNextInstantiation -= Time.deltaTime;
         if(timeLeftToNextInstantiation <= 0) {
-            GameObject newBullet = Instantiate(bulletPrefab, new Vector2(transform.position.x + offset.x, transform.position.y + offset.y),  transform.rotation);
-            Bullet newBulletScript = newBullet.GetComponent<Bullet>();
-            //audioSource.clip = shootSfx;
-            //audioSource.Play();
-            if (isFiringRight) {
-                newBulletScript.velocity = -newBulletScript.velocity;
-            }
+            Instantiate(bulletPrefab, new Vector2(transform.position.x + offset.x, transform.position.y + offset.y),  transform.rotation);
             timeLeftToNextInstantiation = fireRate;
         }
     }

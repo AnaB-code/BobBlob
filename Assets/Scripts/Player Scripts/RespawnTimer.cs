@@ -22,8 +22,6 @@ public class RespawnTimer : MonoBehaviour
             respawnDelay = 1;
             player.SetActive(true);
             isDead = false;
-            player.GetComponent<PlayerMove>().isDead = false;
-            player.GetComponent<DeathCheck>().myKiller = null;
         }
     }
 

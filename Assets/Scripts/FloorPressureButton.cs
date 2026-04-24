@@ -3,10 +3,6 @@ using UnityEngine;
 public class FloorPressureButton : MonoBehaviour
 {
     public FloorOpen myFloorOpen;
-    public AudioSource audioSource;
-
-    public AudioClip buttonPress;
-    public AudioClip unpress;
     //bool hasPressed=false;
     //public Vector3 ogPos;
     //bool returnPos = false;
@@ -31,8 +27,6 @@ public class FloorPressureButton : MonoBehaviour
         //collision.transform.parent = transform;
         GetComponent<SpriteRenderer>().color = Color.green;
         myFloorOpen.addCount(1);
-        audioSource.clip = buttonPress;
-        audioSource.Play();
         //hasPressed=true;
        // doorUnlock.addCount(1);
         
@@ -44,8 +38,6 @@ public class FloorPressureButton : MonoBehaviour
         //returnPos = true;
         //collision.transform.parent = null;
         GetComponent<SpriteRenderer>().color = Color.blue;
-        audioSource.clip = unpress;
-        audioSource.Play();
         myFloorOpen.addCount(-1);
         //hasPressed = false;
         //}

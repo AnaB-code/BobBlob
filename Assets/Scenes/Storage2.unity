@@ -4674,8 +4674,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 483424302}
-  audioSource: {fileID: 883739308}
-  buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
 --- !u!61 &883739304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6850,8 +6848,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 2146013611}
-  audioSource: {fileID: 1179040016}
-  buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
 --- !u!61 &1179040012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16202,7 +16198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f505a4ab259f5545836500af44ff28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneLoad: 10
+  scene: 
 --- !u!61 &1876096133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17390,8 +17386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDoorOpen: {fileID: 409597436}
-  audioSource: {fileID: 2103756686}
-  buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
 --- !u!61 &2103756682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18285,63 +18279,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &7974930207983948288
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3757441907591527805, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_Name
-      value: crab
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -15.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6713074777724682758, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0f9ee831c4e5b574795c9a5039714f3b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -18372,5 +18309,4 @@ SceneRoots:
   - {fileID: 320029}
   - {fileID: 749857729}
   - {fileID: 995629112}
-  - {fileID: 7974930207983948288}
   - {fileID: 592402285}
