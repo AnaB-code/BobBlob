@@ -3,10 +3,10 @@ using UnityEngine;
 public class spring : MonoBehaviour
 {
     public float bounceForce = 20f;
+    public float jumpForceX;
+    public float jumpForceY;
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Rigidbody2D rb = collision.rigidbody;
+    AudioSource audioSource;
 
     public AudioClip bounce;
     

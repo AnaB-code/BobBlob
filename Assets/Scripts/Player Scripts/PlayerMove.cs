@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
@@ -35,10 +34,12 @@ public class PlayerMove : MonoBehaviour {
     float maxScale;
     Coroutine flipRoutine;
 
+    Animator anim;
+
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        isDead = false;
+        //isDead = false;
         maxScale = transform.localScale.x;
     }
 
