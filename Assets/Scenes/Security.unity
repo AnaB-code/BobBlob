@@ -5506,6 +5506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bounce Pad (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254537206170568182, guid: 3a124bba426d2464cbe5afbb77909d2f, type: 3}
+      propertyPath: bounce
+      value: 
+      objectReference: {fileID: 8300000, guid: 06181e9f1f297924796be7805821eddc, type: 3}
     - target: {fileID: 8231002716201434914, guid: 3a124bba426d2464cbe5afbb77909d2f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -10568,6 +10572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bounce Pad (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6254537206170568182, guid: 3a124bba426d2464cbe5afbb77909d2f, type: 3}
+      propertyPath: bounce
+      value: 
+      objectReference: {fileID: 8300000, guid: 06181e9f1f297924796be7805821eddc, type: 3}
     - target: {fileID: 8231002716201434914, guid: 3a124bba426d2464cbe5afbb77909d2f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

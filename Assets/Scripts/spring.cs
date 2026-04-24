@@ -6,7 +6,7 @@ public class spring : MonoBehaviour
     public float jumpForceX;
     public float jumpForceY;
 
-    AudioSource audioSource;
+   public AudioSource audioSource;
 
     public AudioClip bounce;
     
