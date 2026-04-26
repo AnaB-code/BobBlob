@@ -63,10 +63,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Hallway3.unity
     guid: 85e2959c941e2dc4c9058e1fb180ccb3
   - enabled: 1
-    path: Assets/Scenes/end.unity
-    guid: e1a0a912e6e9a2c4399ec6f4b1130598
-  - enabled: 0
+    path: Assets/Scenes/Bridge.unity
+    guid: 39e108bf05b9915478deccd179fb13f1
+  - enabled: 1
+    path: Assets/Scenes/Living Quarters.unity
+    guid: 5ba02626aa38d724897aab8b361451a3
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: 57d8701028b2f9a458b26634a32615b9
+  - enabled: 1
+    path: Assets/Scenes/Security.unity
+    guid: 58e26d8339c4bdb45bae18f46569f99a
+  - enabled: 1
     path: Assets/Scenes/Hallway4.unity
     guid: 492bdb81697c35544a0c29191c0dd110
+  - enabled: 1
+    path: Assets/Scenes/Escape pods.unity
+    guid: eb7ee6ed18922db46a166adf136393b3
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: e1a0a912e6e9a2c4399ec6f4b1130598
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -15,7 +15,7 @@ public class SceneChange : MonoBehaviour {
     {
         if(other.gameObject.tag == "Player")
         {
-            if(SceneManager.GetActiveScene().buildIndex == 20)
+            if(SceneManager.GetActiveScene().buildIndex == 26)
             {
                 print("WIN");
             }

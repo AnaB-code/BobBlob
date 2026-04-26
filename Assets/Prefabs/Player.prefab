@@ -509,6 +509,33 @@ MonoBehaviour:
   coyoteTime: 0.2
   jumpInputTime: 0.2
   isGrounded: 0
+  isDead: 0
+  timeToFlip: 0.3
+  flipCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flipSensitivity: 0
 --- !u!114 &8115908301839406049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,6 +586,9 @@ MonoBehaviour:
   rt: {fileID: 0}
   ps: {fileID: 8115908301839406049}
   g: {fileID: 6349587052400227214}
+  respawnPoint: {fileID: 0}
+  myKiller: {fileID: 0}
+  myself: {fileID: 8290003878166757385}
 --- !u!114 &713694770077036397
 MonoBehaviour:
   m_ObjectHideFlags: 0

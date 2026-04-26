@@ -8,11 +8,22 @@ public class DieAndRespawnn : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.CompareTag("Player")) {//checks if what hits it is the player
-            player.transform.position = respawnPoint.transform.position; //puts player at respawn point
-            player.SetActive(false); //disables player (is tempoary) 
-            if(willReloadScene) {
+            player.GetComponent<PlayerMove>().AnimTriggerer("deathState");
+            player.GetComponent<DeathCheck>().myKiller = this.gameObject;
+            player.GetComponent<PlayerMove>().Slam();
+            player.GetComponent<PlayerMove>().isDead = true;
+
+            if (willReloadScene) {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+            //Murder();
         }
+    }
+    public void Murder() {
+        if (willReloadScene) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        player.transform.position = respawnPoint.transform.position; //puts player at respawn point
+        player.SetActive(false); //disables player (is tempoary) 
     }
 }

@@ -1055,7 +1055,7 @@ PrefabInstance:
       objectReference: {fileID: 1967997621}
     - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: willReloadScene
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2103058260282206190, guid: 769f2cbf0cea76e4d96380c092d58b7e, type: 3}
       propertyPath: m_Constraints
@@ -1508,7 +1508,7 @@ PrefabInstance:
       objectReference: {fileID: 1967997621}
     - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: willReloadScene
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2103058260282206190, guid: 769f2cbf0cea76e4d96380c092d58b7e, type: 3}
       propertyPath: m_Constraints
@@ -4285,6 +4285,10 @@ PrefabInstance:
       propertyPath: scene
       value: Bridge
       objectReference: {fileID: 0}
+    - target: {fileID: 5669940806395628724, guid: 2f15a8517910d2a42b84c2fd045f82ff, type: 3}
+      propertyPath: nextSceneLoad
+      value: 24
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6143,7 +6147,7 @@ PrefabInstance:
       objectReference: {fileID: 1967997621}
     - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: willReloadScene
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3966802475271424014, guid: 4d52220fb7376834eb0b422b5fe6c9eb, type: 3}
       propertyPath: player
@@ -10545,7 +10549,7 @@ PrefabInstance:
       objectReference: {fileID: 1967997621}
     - target: {fileID: 6908543975352630700, guid: 2a2926a17f45a9e4d8078feb5a950145, type: 3}
       propertyPath: willReloadScene
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2103058260282206190, guid: 769f2cbf0cea76e4d96380c092d58b7e, type: 3}
       propertyPath: m_Constraints
@@ -10779,6 +10783,10 @@ PrefabInstance:
       propertyPath: rt
       value: 
       objectReference: {fileID: 1967997623}
+    - target: {fileID: 321282640387343257, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1967997621}
     - target: {fileID: 574737180775291956, guid: 077506941f9a5584d8494fc5d2900d3e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.4

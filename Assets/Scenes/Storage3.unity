@@ -15439,7 +15439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a945eb2c07aa5284c97e5928df2e7223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myDoorOpen: {fileID: 242659129}
   audioSource: {fileID: 1151383046}
   buttonPress: {fileID: 8300000, guid: d7fbb45fa82a6bd438748a69c0834642, type: 3}
   unpress: {fileID: 8300000, guid: c4b98f2e3244aff439b6ebe8493f0fd0, type: 3}
@@ -21079,7 +21078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnDelay: 1
-  player: {fileID: 0}
+  player: {fileID: 261547178}
   isDead: 0
 --- !u!4 &2054836593
 Transform:

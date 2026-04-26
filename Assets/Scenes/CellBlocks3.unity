@@ -986,7 +986,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
   fireRate: 2
   offset: {x: -1, y: 0}
-  isFiringRight: 0
 --- !u!114 &102101758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4416,7 +4415,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
   fireRate: 2
   offset: {x: -1, y: 0}
-  isFiringRight: 0
 --- !u!95 &680415391
 Animator:
   serializedVersion: 7

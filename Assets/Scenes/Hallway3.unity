@@ -3328,7 +3328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f505a4ab259f5545836500af44ff28a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneLoad: 0
+  nextSceneLoad: 20
 --- !u!61 &486707308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5157,7 +5157,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
   fireRate: 2
   offset: {x: -1, y: 0}
-  isFiringRight: 0
 --- !u!82 &639672544
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14568,7 +14567,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
   fireRate: 2
   offset: {x: -1, y: 0}
-  isFiringRight: 0
 --- !u!114 &2051499574
 MonoBehaviour:
   m_ObjectHideFlags: 0

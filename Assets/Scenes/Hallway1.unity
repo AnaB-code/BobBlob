@@ -759,7 +759,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1435571934699077594, guid: a80f50cd233239846b5cf5eb69d887f1, type: 3}
   fireRate: 1
   offset: {x: 0, y: 0}
-  isFiringRight: 0
 --- !u!114 &204814532
 MonoBehaviour:
   m_ObjectHideFlags: 0
